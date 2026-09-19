@@ -1,0 +1,16 @@
+check,value
+feature_count,169
+development_rows,55999
+validation_rows,14000
+development_churn_rate,0.10189467669065519
+validation_churn_rate,0.10185714285714285
+class_ratio_majority_to_minority,8.814055380301436
+initial_threshold,0.5
+random_state,42
+development_missing_values,0
+validation_missing_values,0
+development_infinite_values,0
+validation_infinite_values,0
+validation_used_for_feature_selection,False
+validation_used_for_threshold_optimization,False
+test_data_loaded,False

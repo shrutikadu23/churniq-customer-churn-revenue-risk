@@ -1,0 +1,76 @@
+{
+  "step": "7.7",
+  "title": "Cross-Validation & Model Stability",
+  "random_state": 42,
+  "n_splits": 5,
+  "cv_strategy": "StratifiedKFold",
+  "shuffle": true,
+  "feature_count": 169,
+  "development_rows": 55999,
+  "development_churn_rate": 0.10189467669065519,
+  "target": "churn_probability",
+  "primary_metric": "PR-AUC",
+  "secondary_metrics": [
+    "ROC-AUC",
+    "Precision",
+    "Recall",
+    "F1",
+    "Log Loss",
+    "Brier Score"
+  ],
+  "business_metrics": [
+    "Top-5 capture",
+    "Top-5 lift",
+    "Top-10 capture",
+    "Top-10 lift",
+    "Top-20 capture",
+    "Top-20 lift"
+  ],
+  "models": [
+    "Logistic Regression",
+    "HistGradientBoosting",
+    "XGBoost"
+  ],
+  "model_configurations": {
+    "Logistic Regression": {
+      "max_iter": 3000,
+      "class_weight": null,
+      "random_state": 42
+    },
+    "HistGradientBoosting": {
+      "learning_rate": 0.1,
+      "max_iter": 100,
+      "max_leaf_nodes": 31,
+      "min_samples_leaf": 20,
+      "l2_regularization": 0.0,
+      "random_state": 42
+    },
+    "XGBoost": {
+      "n_estimators": 100,
+      "learning_rate": 0.1,
+      "max_depth": 6,
+      "min_child_weight": 1,
+      "subsample": 1.0,
+      "colsample_bytree": 1.0,
+      "gamma": 0.0,
+      "reg_alpha": 0.0,
+      "reg_lambda": 1.0,
+      "objective": "binary:logistic",
+      "eval_metric": "logloss",
+      "tree_method": "hist",
+      "random_state": 42,
+      "n_jobs": -1
+    }
+  },
+  "validation_loaded": false,
+  "test_loaded": false,
+  "hyperparameter_tuning": false,
+  "threshold_optimization": false,
+  "calibration": false,
+  "shap": false,
+  "feature_selection": false,
+  "resampling": false,
+  "class_weighting": false,
+  "oof_predictions_saved": true,
+  "quality_gate": "PASS"
+}

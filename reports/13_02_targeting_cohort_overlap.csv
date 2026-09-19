@@ -1,0 +1,5 @@
+exposure_cohort,exposure_cohort_customers,high_very_high_overlap_customers,high_very_high_overlap_share_of_cohort_pct,overlap_monthly_revenue_exposure_inr,overlap_exposure_share_of_cohort_pct,overlap_historical_churned_customers
+Top 1% Exposure,700,681,97.28571428571429,242586.64014383615,97.59885167295477,394
+Top 5% Exposure,3500,3108,88.8,462532.2344388799,93.34369582058348,1432
+Top 10% Exposure,7000,5080,72.57142857142857,525677.1817893526,87.26408179438133,2081
+Top 20% Exposure,14000,6648,47.48571428571429,546111.0854803576,79.77559187872522,2594

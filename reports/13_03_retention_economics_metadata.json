@@ -1,0 +1,50 @@
+{
+  "phase": "13.3",
+  "purpose": "Retention Economics by Targeting Cohort",
+  "source": "data/processed/customer_targeting_cohorts_phase13.csv",
+  "customer_universe": 69999,
+  "evaluation_horizon_months": 12,
+  "intervention_cost_timing": "One-time per targeted customer",
+  "targeting_cohorts": [
+    "Top 1% Exposure",
+    "Top 5% Exposure",
+    "Top 10% Exposure",
+    "Top 20% Exposure",
+    "High + Very High Risk"
+  ],
+  "retention_scenarios": [
+    {
+      "scenario_id": "low_touch",
+      "scenario_name": "Low-Touch Retention",
+      "intervention_cost_inr": 100.0,
+      "retention_success_rate": 0.2
+    },
+    {
+      "scenario_id": "targeted",
+      "scenario_name": "Targeted Retention",
+      "intervention_cost_inr": 250.0,
+      "retention_success_rate": 0.35
+    },
+    {
+      "scenario_id": "high_touch",
+      "scenario_name": "High-Touch Retention",
+      "intervention_cost_inr": 500.0,
+      "retention_success_rate": 0.5
+    }
+  ],
+  "scenario_count": 3,
+  "cohort_count": 5,
+  "economic_combinations": 15,
+  "break_even_definition": "Intervention cost divided by annualized revenue exposure.",
+  "historical_churn_usage": "Descriptive context only; not used to calculate ROI.",
+  "governance": {
+    "model_retraining": false,
+    "probability_recalibration": false,
+    "threshold_changes": false,
+    "test_data_loaded": false,
+    "actual_churn_used_for_roi": false,
+    "realized_roi_claimed": false,
+    "guaranteed_revenue_claimed": false
+  },
+  "quality_gate": "PASS"
+}

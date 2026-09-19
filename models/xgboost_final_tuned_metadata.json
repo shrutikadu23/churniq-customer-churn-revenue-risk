@@ -1,0 +1,15 @@
+{
+  "model_name": "ChurnIQ Final Tuned XGBoost",
+  "candidate": "XGB_02_SLOWER_MORE_TREES",
+  "feature_count": 169,
+  "development_rows": 55999,
+  "random_state": 42,
+  "calibration": "separate sigmoid calibrator",
+  "primary_threshold": 0.1,
+  "parameter_source": "reports/07_8_selected_model_parameters.json",
+  "model_file": "xgboost_final_tuned.ubj",
+  "test_data_used": false,
+  "feature_selection_performed": false,
+  "hyperparameter_tuning_performed": false,
+  "calibration_fitted": false
+}

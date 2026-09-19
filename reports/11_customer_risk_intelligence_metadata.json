@@ -1,0 +1,56 @@
+{
+  "phase": "11",
+  "purpose": "Customer Risk Intelligence",
+  "customer_universe": 69999,
+  "development_customers": 55999,
+  "validation_customers": 14000,
+  "risk_probability_source": "Tuned XGBoost OOF predictions + recorded validation predictions",
+  "calibration_method": "sigmoid",
+  "calibrator_source": "models/xgb_probability_calibrator.joblib",
+  "threshold_source": "reports/07_12_threshold_selection.json",
+  "primary_threshold": 0.1,
+  "very_high_threshold": 0.5,
+  "risk_level_definition": {
+    "Very High": ">= 0.50",
+    "High": ">= 0.10 and < 0.50",
+    "Below Primary Threshold": "< 0.10"
+  },
+  "risk_score_definition": "calibrated churn probability multiplied by 100",
+  "risk_percentile_definition": "Percentile rank of calibrated churn probability across the full 69,999-customer universe; descriptive only",
+  "risk_rank_definition": "Deterministic descending rank by calibrated churn probability, then customer ID",
+  "actual_churn_definition": "Observed historical churn outcome from the original churn_probability target; not a model prediction",
+  "top_100_definition": "100 highest calibrated churn probability customers across the full 69,999-customer universe",
+  "threshold_metrics_definition": "Retrospective descriptive metrics comparing the locked threshold against observed historical churn; not future guarantees",
+  "risk_level_counts": {
+    "Below Primary Threshold": 57507,
+    "High": 6340,
+    "Very High": 6152
+  },
+  "risk_level_shares": {
+    "Below Primary Threshold": 0.8215403077186817,
+    "High": 0.09057272246746383,
+    "Very High": 0.08788696981385448
+  },
+  "primary_threshold_population": {
+    "customer_count": 12492,
+    "customer_share": 0.1784596922813183,
+    "observed_actual_churners": 6279,
+    "observed_churn_rate_within_threshold_population": 0.5026416906820365,
+    "observed_churn_capture_share": 0.8803982052720135
+  },
+  "governance": {
+    "model_retraining": false,
+    "additional_tuning": false,
+    "additional_calibration": false,
+    "feature_selection": false,
+    "test_data_loaded": false,
+    "feature_freeze": true
+  },
+  "phase_boundary": {
+    "customer_value": "Phase 12",
+    "revenue_exposure": "Phase 12",
+    "retention_prioritization": "Phase 13",
+    "roi": "Phase 13"
+  },
+  "quality_gate": "PASS"
+}

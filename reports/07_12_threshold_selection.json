@@ -1,0 +1,59 @@
+{
+  "step": "7.12",
+  "purpose": "Threshold Optimization & Business Operating Points",
+  "timestamp_utc": "2026-09-10T15:11:20.941519+00:00",
+  "random_state": 42,
+  "feature_count": 169,
+  "development_oof_rows": 55999,
+  "validation_rows": 14000,
+  "calibration_method": "sigmoid",
+  "calibrator_source": "Step 7.11",
+  "threshold_selection_data": "Development OOF only",
+  "validation_used_for_threshold_selection": false,
+  "test_used": false,
+  "additional_training": false,
+  "additional_tuning": false,
+  "additional_calibration": false,
+  "feature_selection": false,
+  "primary_operating_point": {
+    "threshold": 0.1,
+    "targeting_rate": 0.17925320095001696,
+    "precision": 0.50139470013947,
+    "churn_capture": 0.8820539782684893,
+    "lift": 4.920715354558392
+  },
+  "capacity_operating_point": {
+    "capacity_rate": 0.1,
+    "threshold": 0.4020173106852802,
+    "development_churn_capture": 0.7124079915878023,
+    "development_precision": 0.7260225040185747
+  },
+  "risk_bands": [
+    {
+      "label": "Very Low",
+      "lower_bound": 0.0,
+      "upper_bound": 0.2
+    },
+    {
+      "label": "Low",
+      "lower_bound": 0.2,
+      "upper_bound": 0.4
+    },
+    {
+      "label": "Medium",
+      "lower_bound": 0.4,
+      "upper_bound": 0.6
+    },
+    {
+      "label": "High",
+      "lower_bound": 0.6,
+      "upper_bound": 0.8
+    },
+    {
+      "label": "Very High",
+      "lower_bound": 0.8,
+      "upper_bound": 1.01
+    }
+  ],
+  "quality_gate": "PASS"
+}

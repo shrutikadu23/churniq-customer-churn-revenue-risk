@@ -1,0 +1,126 @@
+group_id,feature,decision,representative,reason
+1,roam_ic_mou_8,Retain,roam_ic_mou_8,Preferred representative of highly correlated group
+1,roam_ic_mou_pct_change_6_to_8,Exclude,roam_ic_mou_8,Highly correlated redundant feature
+2,roam_og_mou_8,Retain,roam_og_mou_8,Preferred representative of highly correlated group
+2,roam_og_mou_pct_change_6_to_8,Exclude,roam_og_mou_8,Highly correlated redundant feature
+3,vol_2g_mb_6,Retain,vol_2g_mb_6,Preferred representative of highly correlated group
+3,total_rech_data_6_missing,Exclude,vol_2g_mb_6,Highly correlated redundant feature
+3,total_data_volume_6,Exclude,vol_2g_mb_6,Highly correlated redundant feature
+3,night_pck_user_6_missing,Exclude,vol_2g_mb_6,Highly correlated redundant feature
+3,fb_user_6_missing,Exclude,vol_2g_mb_6,Highly correlated redundant feature
+3,date_of_last_rech_data_6_missing,Exclude,vol_2g_mb_6,Highly correlated redundant feature
+3,data_inactive_6,Exclude,vol_2g_mb_6,Highly correlated redundant feature
+3,count_rech_3g_6_missing,Exclude,vol_2g_mb_6,Highly correlated redundant feature
+3,count_rech_2g_6_missing,Exclude,vol_2g_mb_6,Highly correlated redundant feature
+3,av_rech_amt_data_6_missing,Exclude,vol_2g_mb_6,Highly correlated redundant feature
+3,max_rech_data_6_missing,Exclude,vol_2g_mb_6,Highly correlated redundant feature
+4,vol_2g_mb_7,Retain,vol_2g_mb_7,Preferred representative of highly correlated group
+4,total_rech_data_7_missing,Exclude,vol_2g_mb_7,Highly correlated redundant feature
+4,total_data_volume_7,Exclude,vol_2g_mb_7,Highly correlated redundant feature
+4,night_pck_user_7_missing,Exclude,vol_2g_mb_7,Highly correlated redundant feature
+4,fb_user_7_missing,Exclude,vol_2g_mb_7,Highly correlated redundant feature
+4,date_of_last_rech_data_7_missing,Exclude,vol_2g_mb_7,Highly correlated redundant feature
+4,data_inactive_7,Exclude,vol_2g_mb_7,Highly correlated redundant feature
+4,count_rech_3g_7_missing,Exclude,vol_2g_mb_7,Highly correlated redundant feature
+4,count_rech_2g_7_missing,Exclude,vol_2g_mb_7,Highly correlated redundant feature
+4,av_rech_amt_data_7_missing,Exclude,vol_2g_mb_7,Highly correlated redundant feature
+4,max_rech_data_7_missing,Exclude,vol_2g_mb_7,Highly correlated redundant feature
+5,vol_2g_mb_8,Retain,vol_2g_mb_8,Preferred representative of highly correlated group
+5,total_data_volume_8,Exclude,vol_2g_mb_8,Highly correlated redundant feature
+5,data_inactive_8,Exclude,vol_2g_mb_8,Highly correlated redundant feature
+6,aon,Retain,aon,Preferred representative of highly correlated group
+6,tenure_years,Exclude,aon,Highly correlated redundant feature
+7,no_recharge_count_6,Retain,no_recharge_count_6,Preferred representative of highly correlated group
+7,date_of_last_rech_6_missing,Exclude,no_recharge_count_6,Highly correlated redundant feature
+8,no_recharge_count_7,Retain,no_recharge_count_7,Preferred representative of highly correlated group
+8,date_of_last_rech_7_missing,Exclude,no_recharge_count_7,Highly correlated redundant feature
+9,no_recharge_count_8,Retain,no_recharge_count_8,Preferred representative of highly correlated group
+9,date_of_last_rech_8_missing,Exclude,no_recharge_count_8,Highly correlated redundant feature
+10,total_rech_data_8_missing,Retain,total_rech_data_8_missing,Preferred representative of highly correlated group
+10,night_pck_user_8_missing,Exclude,total_rech_data_8_missing,Highly correlated redundant feature
+10,fb_user_8_missing,Exclude,total_rech_data_8_missing,Highly correlated redundant feature
+10,date_of_last_rech_data_8_missing,Exclude,total_rech_data_8_missing,Highly correlated redundant feature
+10,count_rech_3g_8_missing,Exclude,total_rech_data_8_missing,Highly correlated redundant feature
+10,count_rech_2g_8_missing,Exclude,total_rech_data_8_missing,Highly correlated redundant feature
+10,av_rech_amt_data_8_missing,Exclude,total_rech_data_8_missing,Highly correlated redundant feature
+10,max_rech_data_8_missing,Exclude,total_rech_data_8_missing,Highly correlated redundant feature
+11,spl_og_mou_8_missing,Retain,spl_og_mou_8_missing,Preferred representative of highly correlated group
+11,spl_ic_mou_8_missing,Exclude,spl_og_mou_8_missing,Highly correlated redundant feature
+11,roam_og_mou_8_missing,Exclude,spl_og_mou_8_missing,Highly correlated redundant feature
+11,roam_ic_mou_8_missing,Exclude,spl_og_mou_8_missing,Highly correlated redundant feature
+11,onnet_mou_8_missing,Exclude,spl_og_mou_8_missing,Highly correlated redundant feature
+11,offnet_mou_8_missing,Exclude,spl_og_mou_8_missing,Highly correlated redundant feature
+11,loc_og_t2t_mou_8_missing,Exclude,spl_og_mou_8_missing,Highly correlated redundant feature
+11,loc_og_t2m_mou_8_missing,Exclude,spl_og_mou_8_missing,Highly correlated redundant feature
+11,loc_og_t2f_mou_8_missing,Exclude,spl_og_mou_8_missing,Highly correlated redundant feature
+11,loc_og_t2c_mou_8_missing,Exclude,spl_og_mou_8_missing,Highly correlated redundant feature
+11,loc_og_mou_8_missing,Exclude,spl_og_mou_8_missing,Highly correlated redundant feature
+11,loc_ic_t2t_mou_8_missing,Exclude,spl_og_mou_8_missing,Highly correlated redundant feature
+11,loc_ic_t2m_mou_8_missing,Exclude,spl_og_mou_8_missing,Highly correlated redundant feature
+11,loc_ic_t2f_mou_8_missing,Exclude,spl_og_mou_8_missing,Highly correlated redundant feature
+11,loc_ic_mou_8_missing,Exclude,spl_og_mou_8_missing,Highly correlated redundant feature
+11,isd_og_mou_8_missing,Exclude,spl_og_mou_8_missing,Highly correlated redundant feature
+11,isd_ic_mou_8_missing,Exclude,spl_og_mou_8_missing,Highly correlated redundant feature
+11,std_og_t2t_mou_8_missing,Exclude,spl_og_mou_8_missing,Highly correlated redundant feature
+11,std_og_t2m_mou_8_missing,Exclude,spl_og_mou_8_missing,Highly correlated redundant feature
+11,std_og_t2f_mou_8_missing,Exclude,spl_og_mou_8_missing,Highly correlated redundant feature
+11,std_og_t2c_mou_8_missing,Exclude,spl_og_mou_8_missing,Highly correlated redundant feature
+11,std_og_mou_8_missing,Exclude,spl_og_mou_8_missing,Highly correlated redundant feature
+11,std_ic_t2t_mou_8_missing,Exclude,spl_og_mou_8_missing,Highly correlated redundant feature
+11,std_ic_t2o_mou_8_missing,Exclude,spl_og_mou_8_missing,Highly correlated redundant feature
+11,std_ic_t2m_mou_8_missing,Exclude,spl_og_mou_8_missing,Highly correlated redundant feature
+11,std_ic_t2f_mou_8_missing,Exclude,spl_og_mou_8_missing,Highly correlated redundant feature
+11,std_ic_mou_8_missing,Exclude,spl_og_mou_8_missing,Highly correlated redundant feature
+12,arpu_avg_6_8,Retain,arpu_avg_6_8,Preferred representative of highly correlated group
+12,recharge_amount_avg_6_8,Exclude,arpu_avg_6_8,Highly correlated redundant feature
+13,arpu_max_6_8,Retain,arpu_max_6_8,Preferred representative of highly correlated group
+13,recharge_amount_max_6_8,Exclude,arpu_max_6_8,Highly correlated redundant feature
+14,recharge_count_max_6_8,Retain,recharge_count_max_6_8,Preferred representative of highly correlated group
+14,recharge_count_avg_6_8,Exclude,recharge_count_max_6_8,Highly correlated redundant feature
+15,recharge_value_per_transaction_8,Retain,recharge_value_per_transaction_8,Preferred representative of highly correlated group
+15,avg_recharge_amt_8,Exclude,recharge_value_per_transaction_8,Highly correlated redundant feature
+16,total_og_mou_max_6_8,Retain,total_og_mou_max_6_8,Preferred representative of highly correlated group
+16,total_og_mou_avg_6_8,Exclude,total_og_mou_max_6_8,Highly correlated redundant feature
+17,total_ic_mou_max_6_8,Retain,total_ic_mou_max_6_8,Preferred representative of highly correlated group
+17,total_ic_mou_avg_6_8,Exclude,total_ic_mou_max_6_8,Highly correlated redundant feature
+18,loc_og_mou_max_6_8,Retain,loc_og_mou_max_6_8,Preferred representative of highly correlated group
+18,loc_og_mou_avg_6_8,Exclude,loc_og_mou_max_6_8,Highly correlated redundant feature
+19,std_og_mou_std_6_8,Retain,std_og_mou_std_6_8,Preferred representative of highly correlated group
+19,std_og_mou_max_6_8,Exclude,std_og_mou_std_6_8,Highly correlated redundant feature
+19,std_og_mou_avg_6_8,Exclude,std_og_mou_std_6_8,Highly correlated redundant feature
+20,isd_og_mou_std_6_8,Retain,isd_og_mou_std_6_8,Preferred representative of highly correlated group
+20,isd_og_mou_max_6_8,Exclude,isd_og_mou_std_6_8,Highly correlated redundant feature
+20,isd_og_mou_avg_6_8,Exclude,isd_og_mou_std_6_8,Highly correlated redundant feature
+21,roam_og_mou_std_6_8,Retain,roam_og_mou_std_6_8,Preferred representative of highly correlated group
+21,roam_og_mou_max_6_8,Exclude,roam_og_mou_std_6_8,Highly correlated redundant feature
+21,roam_og_mou_avg_6_8,Exclude,roam_og_mou_std_6_8,Highly correlated redundant feature
+22,loc_ic_mou_max_6_8,Retain,loc_ic_mou_max_6_8,Preferred representative of highly correlated group
+22,loc_ic_mou_avg_6_8,Exclude,loc_ic_mou_max_6_8,Highly correlated redundant feature
+23,std_ic_mou_max_6_8,Retain,std_ic_mou_max_6_8,Preferred representative of highly correlated group
+23,std_ic_mou_avg_6_8,Exclude,std_ic_mou_max_6_8,Highly correlated redundant feature
+24,isd_ic_mou_std_6_8,Retain,isd_ic_mou_std_6_8,Preferred representative of highly correlated group
+24,isd_ic_mou_max_6_8,Exclude,isd_ic_mou_std_6_8,Highly correlated redundant feature
+24,isd_ic_mou_avg_6_8,Exclude,isd_ic_mou_std_6_8,Highly correlated redundant feature
+25,roam_ic_mou_std_6_8,Retain,roam_ic_mou_std_6_8,Preferred representative of highly correlated group
+25,roam_ic_mou_max_6_8,Exclude,roam_ic_mou_std_6_8,Highly correlated redundant feature
+25,roam_ic_mou_avg_6_8,Exclude,roam_ic_mou_std_6_8,Highly correlated redundant feature
+26,vol_2g_mb_std_6_8,Retain,vol_2g_mb_std_6_8,Preferred representative of highly correlated group
+26,vol_2g_mb_max_6_8,Exclude,vol_2g_mb_std_6_8,Highly correlated redundant feature
+26,vol_2g_mb_avg_6_8,Exclude,vol_2g_mb_std_6_8,Highly correlated redundant feature
+27,vol_3g_mb_std_6_8,Retain,vol_3g_mb_std_6_8,Preferred representative of highly correlated group
+27,vol_3g_mb_max_6_8,Exclude,vol_3g_mb_std_6_8,Highly correlated redundant feature
+27,vol_3g_mb_avg_6_8,Exclude,vol_3g_mb_std_6_8,Highly correlated redundant feature
+28,total_rech_data_max_6_8,Retain,total_rech_data_max_6_8,Preferred representative of highly correlated group
+28,total_rech_data_avg_6_8,Exclude,total_rech_data_max_6_8,Highly correlated redundant feature
+29,total_rech_data_pct_change_6_to_8,Retain,total_rech_data_pct_change_6_to_8,Preferred representative of highly correlated group
+29,total_rech_data_change_6_to_8,Exclude,total_rech_data_pct_change_6_to_8,Highly correlated redundant feature
+30,max_rech_data_max_6_8,Retain,max_rech_data_max_6_8,Preferred representative of highly correlated group
+30,max_rech_data_avg_6_8,Exclude,max_rech_data_max_6_8,Highly correlated redundant feature
+31,max_rech_data_pct_change_6_to_8,Retain,max_rech_data_pct_change_6_to_8,Preferred representative of highly correlated group
+31,max_rech_data_change_6_to_8,Exclude,max_rech_data_pct_change_6_to_8,Highly correlated redundant feature
+32,av_rech_amt_data_max_6_8,Retain,av_rech_amt_data_max_6_8,Preferred representative of highly correlated group
+32,av_rech_amt_data_avg_6_8,Exclude,av_rech_amt_data_max_6_8,Highly correlated redundant feature
+33,av_rech_amt_data_pct_change_6_to_8,Retain,av_rech_amt_data_pct_change_6_to_8,Preferred representative of highly correlated group
+33,av_rech_amt_data_change_6_to_8,Exclude,av_rech_amt_data_pct_change_6_to_8,Highly correlated redundant feature
+34,voice_inactive_8,Retain,voice_inactive_8,Preferred representative of highly correlated group
+34,overall_inactive_8,Exclude,voice_inactive_8,Highly correlated redundant feature

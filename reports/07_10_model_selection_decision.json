@@ -1,0 +1,82 @@
+{
+  "project": "ChurnIQ",
+  "step": "7.10",
+  "step_name": "Final Model Selection",
+  "timestamp_utc": "2026-09-09T17:37:09.019726Z",
+  "selected_model": "XGB_02_SLOWER_MORE_TREES",
+  "primary_metric": "Held-out Validation PR-AUC",
+  "selected_primary_metric_value": 0.7613517317081334,
+  "selection_rule": "Select the model with the highest held-out validation PR-AUC.",
+  "ranking": [
+    {
+      "validation_rank": 1,
+      "canonical_model": "XGB_02_SLOWER_MORE_TREES",
+      "selection_pr_auc": 0.7613517317081334,
+      "pr_auc_gap_from_best": 0.0,
+      "within_pr_auc_0_002_of_best": true
+    },
+    {
+      "validation_rank": 2,
+      "canonical_model": "HGB_09_STRONG_REGULARIZATION",
+      "selection_pr_auc": 0.7580861790917028,
+      "pr_auc_gap_from_best": 0.003265552616430578,
+      "within_pr_auc_0_002_of_best": false
+    },
+    {
+      "validation_rank": 3,
+      "canonical_model": "XGB_00_BASELINE",
+      "selection_pr_auc": 0.7575564002247369,
+      "pr_auc_gap_from_best": 0.0037953314833965024,
+      "within_pr_auc_0_002_of_best": false
+    },
+    {
+      "validation_rank": 4,
+      "canonical_model": "HGB_00_BASELINE",
+      "selection_pr_auc": 0.7551235519572426,
+      "pr_auc_gap_from_best": 0.00622817975089085,
+      "within_pr_auc_0_002_of_best": false
+    },
+    {
+      "validation_rank": 5,
+      "canonical_model": "Logistic Regression",
+      "selection_pr_auc": 0.6800355880376492,
+      "pr_auc_gap_from_best": 0.08131614367048423,
+      "within_pr_auc_0_002_of_best": false
+    }
+  ],
+  "decision_evidence": {
+    "selected_model": "XGB_02_SLOWER_MORE_TREES",
+    "selected_validation_pr_auc": 0.7613517317081334,
+    "selected_top10_capture": 0.7103786816269285,
+    "selected_top10_lift": 7.1037868162692845,
+    "hgb_tuned_validation_pr_auc": 0.7580861790917028,
+    "xgb_minus_hgb_validation_pr_auc": 0.003265552616430578,
+    "xgb_hgb_pr_auc_difference_is_small": true
+  },
+  "governance": {
+    "training_performed": false,
+    "hyperparameter_tuning_performed": false,
+    "feature_selection_performed": false,
+    "threshold_optimization_performed": false,
+    "probability_calibration_performed": false,
+    "shap_analysis_performed": false,
+    "resampling_performed": false,
+    "class_weighting_performed": false,
+    "test_data_loaded": false,
+    "validation_used_for_tuning": false,
+    "validation_used_for_feature_selection": false,
+    "selection_metric": "Held-out Validation PR-AUC",
+    "selection_metric_source": "Step 7.9 held-out validation artifact",
+    "feature_count_locked": 169,
+    "feature_freeze_active": true,
+    "selection_is_evidence_only": true
+  },
+  "artifacts": {
+    "validation_evidence": "reports\\07_9_heldout_validation_results.csv",
+    "tuning_evidence": "reports\\07_8_tuning_summary.csv",
+    "final_scorecard": "reports\\07_10_final_model_selection.csv",
+    "validation_ranking": "reports\\07_10_model_validation_ranking.csv",
+    "decision_record": "reports\\07_10_model_selection_decision.json",
+    "markdown_report": "reports\\07_10_final_model_selection.md"
+  }
+}

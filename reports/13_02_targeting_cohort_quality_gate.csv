@@ -1,0 +1,17 @@
+check,status,detail
+Customer universe,PASS,"69,999"
+Unique exposure ranking,PASS,One rank per customer
+Total monthly exposure,PASS,"₹776,208.24"
+Historical churn count,PASS,"7,132"
+Top 1% cohort,PASS,Defined
+Top 5% cohort,PASS,Defined
+Top 10% cohort,PASS,Defined
+Top 20% cohort,PASS,Defined
+High + Very High Risk cohort,PASS,"12,492 customers"
+Exposure capture bounds,PASS,0–100%
+Historical churn capture bounds,PASS,0–100%
+Overlap analysis,PASS,Four exposure/risk overlap checks
+Deterministic ranking,PASS,Exposure → calibrated probability → ID
+No model changes,PASS,"No retraining, recalibration, or threshold changes"
+No test data,PASS,Phase 12 production scoring dataset only
+Historical churn used descriptively,PASS,Not used for ROI calculation

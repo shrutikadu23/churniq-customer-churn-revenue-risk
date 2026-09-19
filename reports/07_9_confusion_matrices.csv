@@ -1,0 +1,6 @@
+model,true_negatives,false_positives,false_negatives,true_positives
+XGBoost Tuned,12307,267,539,887
+HistGradientBoosting Tuned,12282,292,538,888
+XGBoost Baseline,12311,263,543,883
+HistGradientBoosting Baseline,12296,278,543,883
+Logistic Regression,12330,244,627,799

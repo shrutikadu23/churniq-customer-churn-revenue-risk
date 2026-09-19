@@ -1,0 +1,38 @@
+{
+  "step": "7.8",
+  "title": "Controlled Hyperparameter Tuning",
+  "development_rows": 55999,
+  "feature_count": 169,
+  "target": "churn_probability",
+  "random_state": 42,
+  "cv_strategy": "StratifiedKFold",
+  "cv_folds": 5,
+  "candidates_per_model": 10,
+  "total_candidates": 20,
+  "total_fold_evaluations": 100,
+  "optimization_metric": "PR-AUC",
+  "secondary_metrics": [
+    "ROC-AUC",
+    "Precision",
+    "Recall",
+    "F1",
+    "Top-10 capture",
+    "Top-10 lift"
+  ],
+  "models_tuned": [
+    "HistGradientBoosting",
+    "XGBoost"
+  ],
+  "validation_loaded": false,
+  "test_loaded": false,
+  "feature_selection": false,
+  "resampling": false,
+  "class_weighting": false,
+  "threshold_optimization": false,
+  "calibration": false,
+  "shap": false,
+  "selected_model": "XGBoost",
+  "selected_candidate": "XGB_02_SLOWER_MORE_TREES",
+  "selected_cv_pr_auc": 0.7769125626994173,
+  "quality_gate": "PASS"
+}

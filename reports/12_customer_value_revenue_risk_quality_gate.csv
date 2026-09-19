@@ -1,0 +1,18 @@
+check,status,detail
+Customer universe,PASS,"69,999 customers"
+Unique customer IDs,PASS,"69,999 unique IDs"
+No missing customer IDs,PASS,0 missing IDs
+Calibrated probabilities present,PASS,0 missing probabilities
+Calibrated probabilities valid,PASS,"All probabilities within [0,1]"
+Phase 11 risk levels preserved,PASS,Locked Phase 11 risk levels preserved
+Primary threshold preserved,PASS,Primary threshold = 0.10
+August ARPU complete,PASS,0 missing August ARPU values
+Raw negative ARPU preserved,FAIL,Negative raw ARPU retained; clipped only for exposure
+Monthly exposure formula,PASS,"Probability × max(ARPU, 0)"
+Annualized exposure formula,PASS,Monthly exposure × 12
+No negative revenue exposure,PASS,All exposure values >= 0
+Exposure shares valid,PASS,"All customer exposure shares within [0,100]"
+Customer exposure shares sum correctly,PASS,Exposure contribution totals 100%
+Revenue exposure ranking,PASS,"Ranks 1 through 69,999"
+Exposure sorted descending,PASS,Exposure ranking is deterministic
+Output schema,PASS,Required Phase 12 fields present

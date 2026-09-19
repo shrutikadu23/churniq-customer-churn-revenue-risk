@@ -1,0 +1,10 @@
+metric,status,source,unit,note
+August ARPU,Observed,Raw dataset / Phase 12,₹ / month,Observed customer revenue proxy.
+Calibrated churn probability,Observed model output,Phase 11,Probability (0–1),Frozen sigmoid-calibrated model output.
+Potential monthly revenue exposure,Calculated,Phase 12,₹ / month,"Scenario exposure proxy, not guaranteed loss."
+Retention success rate,Assumed,Phase 13.1 — Base Retention Economics Scenario Set v1,Probability (0–1),"Scenario assumption, not observed campaign performance."
+Intervention cost,Assumed,Phase 13.1 — Base Retention Economics Scenario Set v1,₹ / customer,Scenario intervention cost assumption.
+Expected retained revenue,Calculated,Phase 13.1,₹ over evaluation horizon,Exposure multiplied by assumed retention success.
+Expected net value,Calculated,Phase 13.1,₹ over evaluation horizon,Expected retained revenue minus intervention cost.
+Scenario ROI,Calculated,Phase 13.1,Ratio,"Scenario-based economics, not realized ROI."
+Break-even retention success rate,Calculated,Phase 13.1,Probability (0–1),Minimum success rate required to cover intervention cost.

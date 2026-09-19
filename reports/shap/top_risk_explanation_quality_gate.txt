@@ -1,0 +1,18 @@
+ChurnIQ — Phase 10.4 Top-Risk Explanation Quality Gate
+======================================================================
+
+input_exists: PASS
+output_exists: PASS
+profile_count_50: PASS
+unique_customer_ids: PASS
+probabilities_valid: PASS
+descending_risk_order: PASS
+risk_levels_present: PASS
+threshold_present: PASS
+threshold_logic_present: PASS
+positive_driver_profiles_present: PASS
+negative_driver_profiles_present: PASS
+scope_label_present: PASS
+interpretation_note_present: PASS
+
+Overall Status: PASS

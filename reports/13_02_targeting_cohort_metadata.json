@@ -1,0 +1,27 @@
+{
+  "phase": "13.2",
+  "purpose": "Targeting Cohort Analysis",
+  "source": "data/processed/customer_value_revenue_risk.csv",
+  "customer_universe": 69999,
+  "total_monthly_exposure_inr": 776208.2418823112,
+  "total_annualized_exposure_inr": 9314498.902587734,
+  "historical_churned_customers": 7132,
+  "targeting_cohorts": [
+    "Top 1% Exposure",
+    "Top 5% Exposure",
+    "Top 10% Exposure",
+    "Top 20% Exposure",
+    "High + Very High Risk"
+  ],
+  "ranking_basis": "Potential monthly revenue exposure, with calibrated churn probability and customer ID used as deterministic tie-breakers.",
+  "historical_churn_usage": "Descriptive validation only; not used to calculate retention ROI.",
+  "overlap_analysis": "Exposure cohorts intersected with High + Very High Risk classification.",
+  "governance": {
+    "model_retraining": false,
+    "probability_recalibration": false,
+    "threshold_changes": false,
+    "test_data_loaded": false,
+    "actual_churn_used_for_roi": false
+  },
+  "quality_gate": "PASS"
+}

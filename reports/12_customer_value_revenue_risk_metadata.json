@@ -1,0 +1,33 @@
+{
+  "phase": "12",
+  "phase_name": "Customer Value & Revenue Risk",
+  "status": "FAIL",
+  "customer_universe": 69999,
+  "risk_source": "data/processed/customer_risk_intelligence.csv",
+  "customer_value_source": "data/raw/train.csv",
+  "customer_value_proxy": "August ARPU (arpu_8)",
+  "monthly_exposure_formula": "calibrated_churn_probability \u00d7 max(arpu_8, 0)",
+  "annualized_exposure_formula": "potential_monthly_revenue_exposure \u00d7 12",
+  "negative_arpu_treatment": "Raw arpu_8 preserved. Negative values clipped to zero only for exposure calculations.",
+  "primary_threshold": 0.1,
+  "risk_levels": [
+    "Below Primary Threshold",
+    "High",
+    "Very High"
+  ],
+  "revenue_exposure_definition": "Scenario-based potential revenue exposure; not guaranteed revenue loss.",
+  "september_data_used": false,
+  "model_retraining": false,
+  "model_tuning": false,
+  "recalibration": false,
+  "feature_selection": false,
+  "threshold_changed": false,
+  "retention_actions_included": false,
+  "retention_cost_assumptions": false,
+  "roi_calculation": false,
+  "quality_gate": {
+    "checks": 17,
+    "passed": 16,
+    "failed": 1
+  }
+}

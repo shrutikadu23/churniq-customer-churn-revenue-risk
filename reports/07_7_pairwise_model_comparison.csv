@@ -1,0 +1,4 @@
+model_a,model_b,mean_pr_auc_a,mean_pr_auc_b,mean_pr_auc_difference,std_pr_auc_difference,folds_model_a_higher,folds_model_b_higher,folds_equal
+XGBoost,HistGradientBoosting,0.7720118460696487,0.770450662615435,0.0015611834542136993,0.0016407106512358275,4,1,0
+XGBoost,Logistic Regression,0.7720118460696487,0.6959014951118248,0.07611035095782377,0.006480197772581773,5,0,0
+HistGradientBoosting,Logistic Regression,0.770450662615435,0.6959014951118248,0.07454916750361007,0.006848356593066873,5,0,0

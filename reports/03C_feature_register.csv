@@ -1,0 +1,182 @@
+feature_name,feature_family,source_features,transformation,status,leakage_class
+tenure_years,Customer Tenure,aon,aon / 365.25,Candidate,Approved
+tenure_band,Customer Tenure,aon,Business tenure band derived from age on network,Candidate,Approved
+arpu_avg_6_8,Multi-Month Summary,"arpu_6, arpu_7, arpu_8",Row-wise mean across available June-August values,Candidate,Approved
+arpu_min_6_8,Multi-Month Summary,"arpu_6, arpu_7, arpu_8",Row-wise minimum across available June-August values,Candidate,Approved
+arpu_max_6_8,Multi-Month Summary,"arpu_6, arpu_7, arpu_8",Row-wise maximum across available June-August values,Candidate,Approved
+arpu_std_6_8,Behavior Stability,"arpu_6, arpu_7, arpu_8",Population standard deviation across June-August,Candidate,Approved
+arpu_change_6_to_8,Temporal Change,"arpu_6, arpu_8",arpu_8 - arpu_6,Candidate,Approved
+arpu_pct_change_6_to_8,Temporal Percentage Change,"arpu_6, arpu_8",(arpu_8 - arpu_6) / abs(arpu_6),Candidate,Approved
+arpu_change_7_to_8,Temporal Change,"arpu_7, arpu_8",arpu_8 - arpu_7,Candidate,Approved
+arpu_pct_change_7_to_8,Temporal Percentage Change,"arpu_7, arpu_8",(arpu_8 - arpu_7) / abs(arpu_7),Candidate,Approved
+recharge_amount_avg_6_8,Multi-Month Summary,"total_rech_amt_6, total_rech_amt_7, total_rech_amt_8",Row-wise mean across available June-August values,Candidate,Approved
+recharge_amount_min_6_8,Multi-Month Summary,"total_rech_amt_6, total_rech_amt_7, total_rech_amt_8",Row-wise minimum across available June-August values,Candidate,Approved
+recharge_amount_max_6_8,Multi-Month Summary,"total_rech_amt_6, total_rech_amt_7, total_rech_amt_8",Row-wise maximum across available June-August values,Candidate,Approved
+recharge_amount_std_6_8,Behavior Stability,"total_rech_amt_6, total_rech_amt_7, total_rech_amt_8",Population standard deviation across June-August,Candidate,Approved
+recharge_count_avg_6_8,Multi-Month Summary,"total_rech_num_6, total_rech_num_7, total_rech_num_8",Row-wise mean across available June-August values,Candidate,Approved
+recharge_count_min_6_8,Multi-Month Summary,"total_rech_num_6, total_rech_num_7, total_rech_num_8",Row-wise minimum across available June-August values,Candidate,Approved
+recharge_count_max_6_8,Multi-Month Summary,"total_rech_num_6, total_rech_num_7, total_rech_num_8",Row-wise maximum across available June-August values,Candidate,Approved
+recharge_count_std_6_8,Behavior Stability,"total_rech_num_6, total_rech_num_7, total_rech_num_8",Population standard deviation across June-August,Candidate,Approved
+recharge_amt_change_6_to_8,Temporal Change,"total_rech_amt_6, total_rech_amt_8",total_rech_amt_8 - total_rech_amt_6,Candidate,Approved
+recharge_amt_pct_change_6_to_8,Temporal Percentage Change,"total_rech_amt_6, total_rech_amt_8",(total_rech_amt_8 - total_rech_amt_6) / abs(total_rech_amt_6),Candidate,Approved
+recharge_amt_change_7_to_8,Temporal Change,"total_rech_amt_7, total_rech_amt_8",total_rech_amt_8 - total_rech_amt_7,Candidate,Approved
+recharge_amt_pct_change_7_to_8,Temporal Percentage Change,"total_rech_amt_7, total_rech_amt_8",(total_rech_amt_8 - total_rech_amt_7) / abs(total_rech_amt_7),Candidate,Approved
+recharge_num_change_6_to_8,Temporal Change,"total_rech_num_6, total_rech_num_8",total_rech_num_8 - total_rech_num_6,Candidate,Approved
+recharge_num_pct_change_6_to_8,Temporal Percentage Change,"total_rech_num_6, total_rech_num_8",(total_rech_num_8 - total_rech_num_6) / abs(total_rech_num_6),Candidate,Approved
+avg_recharge_amt_8,Customer Value,"total_rech_amt_8, total_rech_num_8",August recharge amount / August recharge count,Candidate,Approved
+total_og_mou_avg_6_8,Multi-Month Summary,"total_og_mou_6, total_og_mou_7, total_og_mou_8",Row-wise mean across available June-August values,Candidate,Approved
+total_og_mou_min_6_8,Multi-Month Summary,"total_og_mou_6, total_og_mou_7, total_og_mou_8",Row-wise minimum across available June-August values,Candidate,Approved
+total_og_mou_max_6_8,Multi-Month Summary,"total_og_mou_6, total_og_mou_7, total_og_mou_8",Row-wise maximum across available June-August values,Candidate,Approved
+total_og_mou_std_6_8,Behavior Stability,"total_og_mou_6, total_og_mou_7, total_og_mou_8",Population standard deviation across June-August,Candidate,Approved
+total_og_mou_change_6_to_8,Temporal Change,"total_og_mou_6, total_og_mou_8",total_og_mou_8 - total_og_mou_6,Candidate,Approved
+total_og_mou_pct_change_6_to_8,Temporal Percentage Change,"total_og_mou_6, total_og_mou_8",(total_og_mou_8 - total_og_mou_6) / abs(total_og_mou_6),Candidate,Approved
+total_og_mou_change_7_to_8,Temporal Change,"total_og_mou_7, total_og_mou_8",total_og_mou_8 - total_og_mou_7,Candidate,Approved
+total_og_mou_pct_change_7_to_8,Temporal Percentage Change,"total_og_mou_7, total_og_mou_8",(total_og_mou_8 - total_og_mou_7) / abs(total_og_mou_7),Candidate,Approved
+total_ic_mou_avg_6_8,Multi-Month Summary,"total_ic_mou_6, total_ic_mou_7, total_ic_mou_8",Row-wise mean across available June-August values,Candidate,Approved
+total_ic_mou_min_6_8,Multi-Month Summary,"total_ic_mou_6, total_ic_mou_7, total_ic_mou_8",Row-wise minimum across available June-August values,Candidate,Approved
+total_ic_mou_max_6_8,Multi-Month Summary,"total_ic_mou_6, total_ic_mou_7, total_ic_mou_8",Row-wise maximum across available June-August values,Candidate,Approved
+total_ic_mou_std_6_8,Behavior Stability,"total_ic_mou_6, total_ic_mou_7, total_ic_mou_8",Population standard deviation across June-August,Candidate,Approved
+total_ic_mou_change_6_to_8,Temporal Change,"total_ic_mou_6, total_ic_mou_8",total_ic_mou_8 - total_ic_mou_6,Candidate,Approved
+total_ic_mou_pct_change_6_to_8,Temporal Percentage Change,"total_ic_mou_6, total_ic_mou_8",(total_ic_mou_8 - total_ic_mou_6) / abs(total_ic_mou_6),Candidate,Approved
+total_ic_mou_change_7_to_8,Temporal Change,"total_ic_mou_7, total_ic_mou_8",total_ic_mou_8 - total_ic_mou_7,Candidate,Approved
+total_ic_mou_pct_change_7_to_8,Temporal Percentage Change,"total_ic_mou_7, total_ic_mou_8",(total_ic_mou_8 - total_ic_mou_7) / abs(total_ic_mou_7),Candidate,Approved
+loc_og_mou_avg_6_8,Multi-Month Summary,"loc_og_mou_6, loc_og_mou_7, loc_og_mou_8",Row-wise mean across available June-August values,Candidate,Approved
+loc_og_mou_min_6_8,Multi-Month Summary,"loc_og_mou_6, loc_og_mou_7, loc_og_mou_8",Row-wise minimum across available June-August values,Candidate,Approved
+loc_og_mou_max_6_8,Multi-Month Summary,"loc_og_mou_6, loc_og_mou_7, loc_og_mou_8",Row-wise maximum across available June-August values,Candidate,Approved
+loc_og_mou_std_6_8,Behavior Stability,"loc_og_mou_6, loc_og_mou_7, loc_og_mou_8",Population standard deviation across June-August,Candidate,Approved
+loc_og_mou_change_6_to_8,Temporal Change,"loc_og_mou_6, loc_og_mou_8",loc_og_mou_8 - loc_og_mou_6,Candidate,Approved
+loc_og_mou_pct_change_6_to_8,Temporal Percentage Change,"loc_og_mou_6, loc_og_mou_8",(loc_og_mou_8 - loc_og_mou_6) / abs(loc_og_mou_6),Candidate,Approved
+loc_og_mou_change_7_to_8,Temporal Change,"loc_og_mou_7, loc_og_mou_8",loc_og_mou_8 - loc_og_mou_7,Candidate,Approved
+loc_og_mou_pct_change_7_to_8,Temporal Percentage Change,"loc_og_mou_7, loc_og_mou_8",(loc_og_mou_8 - loc_og_mou_7) / abs(loc_og_mou_7),Candidate,Approved
+std_og_mou_avg_6_8,Multi-Month Summary,"std_og_mou_6, std_og_mou_7, std_og_mou_8",Row-wise mean across available June-August values,Candidate,Approved
+std_og_mou_min_6_8,Multi-Month Summary,"std_og_mou_6, std_og_mou_7, std_og_mou_8",Row-wise minimum across available June-August values,Candidate,Approved
+std_og_mou_max_6_8,Multi-Month Summary,"std_og_mou_6, std_og_mou_7, std_og_mou_8",Row-wise maximum across available June-August values,Candidate,Approved
+std_og_mou_std_6_8,Behavior Stability,"std_og_mou_6, std_og_mou_7, std_og_mou_8",Population standard deviation across June-August,Candidate,Approved
+std_og_mou_change_6_to_8,Temporal Change,"std_og_mou_6, std_og_mou_8",std_og_mou_8 - std_og_mou_6,Candidate,Approved
+std_og_mou_pct_change_6_to_8,Temporal Percentage Change,"std_og_mou_6, std_og_mou_8",(std_og_mou_8 - std_og_mou_6) / abs(std_og_mou_6),Candidate,Approved
+std_og_mou_change_7_to_8,Temporal Change,"std_og_mou_7, std_og_mou_8",std_og_mou_8 - std_og_mou_7,Candidate,Approved
+std_og_mou_pct_change_7_to_8,Temporal Percentage Change,"std_og_mou_7, std_og_mou_8",(std_og_mou_8 - std_og_mou_7) / abs(std_og_mou_7),Candidate,Approved
+isd_og_mou_avg_6_8,Multi-Month Summary,"isd_og_mou_6, isd_og_mou_7, isd_og_mou_8",Row-wise mean across available June-August values,Candidate,Approved
+isd_og_mou_min_6_8,Multi-Month Summary,"isd_og_mou_6, isd_og_mou_7, isd_og_mou_8",Row-wise minimum across available June-August values,Candidate,Approved
+isd_og_mou_max_6_8,Multi-Month Summary,"isd_og_mou_6, isd_og_mou_7, isd_og_mou_8",Row-wise maximum across available June-August values,Candidate,Approved
+isd_og_mou_std_6_8,Behavior Stability,"isd_og_mou_6, isd_og_mou_7, isd_og_mou_8",Population standard deviation across June-August,Candidate,Approved
+isd_og_mou_change_6_to_8,Temporal Change,"isd_og_mou_6, isd_og_mou_8",isd_og_mou_8 - isd_og_mou_6,Candidate,Approved
+isd_og_mou_pct_change_6_to_8,Temporal Percentage Change,"isd_og_mou_6, isd_og_mou_8",(isd_og_mou_8 - isd_og_mou_6) / abs(isd_og_mou_6),Candidate,Approved
+isd_og_mou_change_7_to_8,Temporal Change,"isd_og_mou_7, isd_og_mou_8",isd_og_mou_8 - isd_og_mou_7,Candidate,Approved
+isd_og_mou_pct_change_7_to_8,Temporal Percentage Change,"isd_og_mou_7, isd_og_mou_8",(isd_og_mou_8 - isd_og_mou_7) / abs(isd_og_mou_7),Candidate,Approved
+roam_og_mou_avg_6_8,Multi-Month Summary,"roam_og_mou_6, roam_og_mou_7, roam_og_mou_8",Row-wise mean across available June-August values,Candidate,Approved
+roam_og_mou_min_6_8,Multi-Month Summary,"roam_og_mou_6, roam_og_mou_7, roam_og_mou_8",Row-wise minimum across available June-August values,Candidate,Approved
+roam_og_mou_max_6_8,Multi-Month Summary,"roam_og_mou_6, roam_og_mou_7, roam_og_mou_8",Row-wise maximum across available June-August values,Candidate,Approved
+roam_og_mou_std_6_8,Behavior Stability,"roam_og_mou_6, roam_og_mou_7, roam_og_mou_8",Population standard deviation across June-August,Candidate,Approved
+roam_og_mou_change_6_to_8,Temporal Change,"roam_og_mou_6, roam_og_mou_8",roam_og_mou_8 - roam_og_mou_6,Candidate,Approved
+roam_og_mou_pct_change_6_to_8,Temporal Percentage Change,"roam_og_mou_6, roam_og_mou_8",(roam_og_mou_8 - roam_og_mou_6) / abs(roam_og_mou_6),Candidate,Approved
+roam_og_mou_change_7_to_8,Temporal Change,"roam_og_mou_7, roam_og_mou_8",roam_og_mou_8 - roam_og_mou_7,Candidate,Approved
+roam_og_mou_pct_change_7_to_8,Temporal Percentage Change,"roam_og_mou_7, roam_og_mou_8",(roam_og_mou_8 - roam_og_mou_7) / abs(roam_og_mou_7),Candidate,Approved
+loc_ic_mou_avg_6_8,Multi-Month Summary,"loc_ic_mou_6, loc_ic_mou_7, loc_ic_mou_8",Row-wise mean across available June-August values,Candidate,Approved
+loc_ic_mou_min_6_8,Multi-Month Summary,"loc_ic_mou_6, loc_ic_mou_7, loc_ic_mou_8",Row-wise minimum across available June-August values,Candidate,Approved
+loc_ic_mou_max_6_8,Multi-Month Summary,"loc_ic_mou_6, loc_ic_mou_7, loc_ic_mou_8",Row-wise maximum across available June-August values,Candidate,Approved
+loc_ic_mou_std_6_8,Behavior Stability,"loc_ic_mou_6, loc_ic_mou_7, loc_ic_mou_8",Population standard deviation across June-August,Candidate,Approved
+loc_ic_mou_change_6_to_8,Temporal Change,"loc_ic_mou_6, loc_ic_mou_8",loc_ic_mou_8 - loc_ic_mou_6,Candidate,Approved
+loc_ic_mou_pct_change_6_to_8,Temporal Percentage Change,"loc_ic_mou_6, loc_ic_mou_8",(loc_ic_mou_8 - loc_ic_mou_6) / abs(loc_ic_mou_6),Candidate,Approved
+loc_ic_mou_change_7_to_8,Temporal Change,"loc_ic_mou_7, loc_ic_mou_8",loc_ic_mou_8 - loc_ic_mou_7,Candidate,Approved
+loc_ic_mou_pct_change_7_to_8,Temporal Percentage Change,"loc_ic_mou_7, loc_ic_mou_8",(loc_ic_mou_8 - loc_ic_mou_7) / abs(loc_ic_mou_7),Candidate,Approved
+std_ic_mou_avg_6_8,Multi-Month Summary,"std_ic_mou_6, std_ic_mou_7, std_ic_mou_8",Row-wise mean across available June-August values,Candidate,Approved
+std_ic_mou_min_6_8,Multi-Month Summary,"std_ic_mou_6, std_ic_mou_7, std_ic_mou_8",Row-wise minimum across available June-August values,Candidate,Approved
+std_ic_mou_max_6_8,Multi-Month Summary,"std_ic_mou_6, std_ic_mou_7, std_ic_mou_8",Row-wise maximum across available June-August values,Candidate,Approved
+std_ic_mou_std_6_8,Behavior Stability,"std_ic_mou_6, std_ic_mou_7, std_ic_mou_8",Population standard deviation across June-August,Candidate,Approved
+std_ic_mou_change_6_to_8,Temporal Change,"std_ic_mou_6, std_ic_mou_8",std_ic_mou_8 - std_ic_mou_6,Candidate,Approved
+std_ic_mou_pct_change_6_to_8,Temporal Percentage Change,"std_ic_mou_6, std_ic_mou_8",(std_ic_mou_8 - std_ic_mou_6) / abs(std_ic_mou_6),Candidate,Approved
+std_ic_mou_change_7_to_8,Temporal Change,"std_ic_mou_7, std_ic_mou_8",std_ic_mou_8 - std_ic_mou_7,Candidate,Approved
+std_ic_mou_pct_change_7_to_8,Temporal Percentage Change,"std_ic_mou_7, std_ic_mou_8",(std_ic_mou_8 - std_ic_mou_7) / abs(std_ic_mou_7),Candidate,Approved
+isd_ic_mou_avg_6_8,Multi-Month Summary,"isd_ic_mou_6, isd_ic_mou_7, isd_ic_mou_8",Row-wise mean across available June-August values,Candidate,Approved
+isd_ic_mou_min_6_8,Multi-Month Summary,"isd_ic_mou_6, isd_ic_mou_7, isd_ic_mou_8",Row-wise minimum across available June-August values,Candidate,Approved
+isd_ic_mou_max_6_8,Multi-Month Summary,"isd_ic_mou_6, isd_ic_mou_7, isd_ic_mou_8",Row-wise maximum across available June-August values,Candidate,Approved
+isd_ic_mou_std_6_8,Behavior Stability,"isd_ic_mou_6, isd_ic_mou_7, isd_ic_mou_8",Population standard deviation across June-August,Candidate,Approved
+isd_ic_mou_change_6_to_8,Temporal Change,"isd_ic_mou_6, isd_ic_mou_8",isd_ic_mou_8 - isd_ic_mou_6,Candidate,Approved
+isd_ic_mou_pct_change_6_to_8,Temporal Percentage Change,"isd_ic_mou_6, isd_ic_mou_8",(isd_ic_mou_8 - isd_ic_mou_6) / abs(isd_ic_mou_6),Candidate,Approved
+isd_ic_mou_change_7_to_8,Temporal Change,"isd_ic_mou_7, isd_ic_mou_8",isd_ic_mou_8 - isd_ic_mou_7,Candidate,Approved
+isd_ic_mou_pct_change_7_to_8,Temporal Percentage Change,"isd_ic_mou_7, isd_ic_mou_8",(isd_ic_mou_8 - isd_ic_mou_7) / abs(isd_ic_mou_7),Candidate,Approved
+roam_ic_mou_avg_6_8,Multi-Month Summary,"roam_ic_mou_6, roam_ic_mou_7, roam_ic_mou_8",Row-wise mean across available June-August values,Candidate,Approved
+roam_ic_mou_min_6_8,Multi-Month Summary,"roam_ic_mou_6, roam_ic_mou_7, roam_ic_mou_8",Row-wise minimum across available June-August values,Candidate,Approved
+roam_ic_mou_max_6_8,Multi-Month Summary,"roam_ic_mou_6, roam_ic_mou_7, roam_ic_mou_8",Row-wise maximum across available June-August values,Candidate,Approved
+roam_ic_mou_std_6_8,Behavior Stability,"roam_ic_mou_6, roam_ic_mou_7, roam_ic_mou_8",Population standard deviation across June-August,Candidate,Approved
+roam_ic_mou_change_6_to_8,Temporal Change,"roam_ic_mou_6, roam_ic_mou_8",roam_ic_mou_8 - roam_ic_mou_6,Candidate,Approved
+roam_ic_mou_pct_change_6_to_8,Temporal Percentage Change,"roam_ic_mou_6, roam_ic_mou_8",(roam_ic_mou_8 - roam_ic_mou_6) / abs(roam_ic_mou_6),Candidate,Approved
+roam_ic_mou_change_7_to_8,Temporal Change,"roam_ic_mou_7, roam_ic_mou_8",roam_ic_mou_8 - roam_ic_mou_7,Candidate,Approved
+roam_ic_mou_pct_change_7_to_8,Temporal Percentage Change,"roam_ic_mou_7, roam_ic_mou_8",(roam_ic_mou_8 - roam_ic_mou_7) / abs(roam_ic_mou_7),Candidate,Approved
+vol_2g_mb_avg_6_8,Multi-Month Summary,"vol_2g_mb_6, vol_2g_mb_7, vol_2g_mb_8",Row-wise mean across available June-August values,Candidate,Approved
+vol_2g_mb_min_6_8,Multi-Month Summary,"vol_2g_mb_6, vol_2g_mb_7, vol_2g_mb_8",Row-wise minimum across available June-August values,Candidate,Approved
+vol_2g_mb_max_6_8,Multi-Month Summary,"vol_2g_mb_6, vol_2g_mb_7, vol_2g_mb_8",Row-wise maximum across available June-August values,Candidate,Approved
+vol_2g_mb_std_6_8,Behavior Stability,"vol_2g_mb_6, vol_2g_mb_7, vol_2g_mb_8",Population standard deviation across June-August,Candidate,Approved
+vol_2g_mb_change_6_to_8,Temporal Change,"vol_2g_mb_6, vol_2g_mb_8",vol_2g_mb_8 - vol_2g_mb_6,Candidate,Approved
+vol_2g_mb_pct_change_6_to_8,Temporal Percentage Change,"vol_2g_mb_6, vol_2g_mb_8",(vol_2g_mb_8 - vol_2g_mb_6) / abs(vol_2g_mb_6),Candidate,Approved
+vol_3g_mb_avg_6_8,Multi-Month Summary,"vol_3g_mb_6, vol_3g_mb_7, vol_3g_mb_8",Row-wise mean across available June-August values,Candidate,Approved
+vol_3g_mb_min_6_8,Multi-Month Summary,"vol_3g_mb_6, vol_3g_mb_7, vol_3g_mb_8",Row-wise minimum across available June-August values,Candidate,Approved
+vol_3g_mb_max_6_8,Multi-Month Summary,"vol_3g_mb_6, vol_3g_mb_7, vol_3g_mb_8",Row-wise maximum across available June-August values,Candidate,Approved
+vol_3g_mb_std_6_8,Behavior Stability,"vol_3g_mb_6, vol_3g_mb_7, vol_3g_mb_8",Population standard deviation across June-August,Candidate,Approved
+vol_3g_mb_change_6_to_8,Temporal Change,"vol_3g_mb_6, vol_3g_mb_8",vol_3g_mb_8 - vol_3g_mb_6,Candidate,Approved
+vol_3g_mb_pct_change_6_to_8,Temporal Percentage Change,"vol_3g_mb_6, vol_3g_mb_8",(vol_3g_mb_8 - vol_3g_mb_6) / abs(vol_3g_mb_6),Candidate,Approved
+total_rech_data_avg_6_8,Multi-Month Summary,"total_rech_data_6, total_rech_data_7, total_rech_data_8",Row-wise mean across available June-August values,Candidate,Approved
+total_rech_data_min_6_8,Multi-Month Summary,"total_rech_data_6, total_rech_data_7, total_rech_data_8",Row-wise minimum across available June-August values,Candidate,Approved
+total_rech_data_max_6_8,Multi-Month Summary,"total_rech_data_6, total_rech_data_7, total_rech_data_8",Row-wise maximum across available June-August values,Candidate,Approved
+total_rech_data_std_6_8,Behavior Stability,"total_rech_data_6, total_rech_data_7, total_rech_data_8",Population standard deviation across June-August,Candidate,Approved
+total_rech_data_change_6_to_8,Temporal Change,"total_rech_data_6, total_rech_data_8",total_rech_data_8 - total_rech_data_6,Candidate,Approved
+total_rech_data_pct_change_6_to_8,Temporal Percentage Change,"total_rech_data_6, total_rech_data_8",(total_rech_data_8 - total_rech_data_6) / abs(total_rech_data_6),Candidate,Approved
+max_rech_data_avg_6_8,Multi-Month Summary,"max_rech_data_6, max_rech_data_7, max_rech_data_8",Row-wise mean across available June-August values,Candidate,Approved
+max_rech_data_min_6_8,Multi-Month Summary,"max_rech_data_6, max_rech_data_7, max_rech_data_8",Row-wise minimum across available June-August values,Candidate,Approved
+max_rech_data_max_6_8,Multi-Month Summary,"max_rech_data_6, max_rech_data_7, max_rech_data_8",Row-wise maximum across available June-August values,Candidate,Approved
+max_rech_data_std_6_8,Behavior Stability,"max_rech_data_6, max_rech_data_7, max_rech_data_8",Population standard deviation across June-August,Candidate,Approved
+max_rech_data_change_6_to_8,Temporal Change,"max_rech_data_6, max_rech_data_8",max_rech_data_8 - max_rech_data_6,Candidate,Approved
+max_rech_data_pct_change_6_to_8,Temporal Percentage Change,"max_rech_data_6, max_rech_data_8",(max_rech_data_8 - max_rech_data_6) / abs(max_rech_data_6),Candidate,Approved
+av_rech_amt_data_avg_6_8,Multi-Month Summary,"av_rech_amt_data_6, av_rech_amt_data_7, av_rech_amt_data_8",Row-wise mean across available June-August values,Candidate,Approved
+av_rech_amt_data_min_6_8,Multi-Month Summary,"av_rech_amt_data_6, av_rech_amt_data_7, av_rech_amt_data_8",Row-wise minimum across available June-August values,Candidate,Approved
+av_rech_amt_data_max_6_8,Multi-Month Summary,"av_rech_amt_data_6, av_rech_amt_data_7, av_rech_amt_data_8",Row-wise maximum across available June-August values,Candidate,Approved
+av_rech_amt_data_std_6_8,Behavior Stability,"av_rech_amt_data_6, av_rech_amt_data_7, av_rech_amt_data_8",Population standard deviation across June-August,Candidate,Approved
+av_rech_amt_data_change_6_to_8,Temporal Change,"av_rech_amt_data_6, av_rech_amt_data_8",av_rech_amt_data_8 - av_rech_amt_data_6,Candidate,Approved
+av_rech_amt_data_pct_change_6_to_8,Temporal Percentage Change,"av_rech_amt_data_6, av_rech_amt_data_8",(av_rech_amt_data_8 - av_rech_amt_data_6) / abs(av_rech_amt_data_6),Candidate,Approved
+total_data_volume_6,Data Engagement,"vol_2g_mb_6, vol_3g_mb_6",vol_2g_mb_6 + vol_3g_mb_6,Candidate,Approved
+total_data_volume_7,Data Engagement,"vol_2g_mb_7, vol_3g_mb_7",vol_2g_mb_7 + vol_3g_mb_7,Candidate,Approved
+total_data_volume_8,Data Engagement,"vol_2g_mb_8, vol_3g_mb_8",vol_2g_mb_8 + vol_3g_mb_8,Candidate,Approved
+total_voice_mou_6,Voice Engagement,"total_og_mou_6, total_ic_mou_6",total_og_mou_6 + total_ic_mou_6,Candidate,Approved
+total_voice_mou_7,Voice Engagement,"total_og_mou_7, total_ic_mou_7",total_og_mou_7 + total_ic_mou_7,Candidate,Approved
+total_voice_mou_8,Voice Engagement,"total_og_mou_8, total_ic_mou_8",total_og_mou_8 + total_ic_mou_8,Candidate,Approved
+total_activity_6,Overall Engagement,"total_voice_mou_6, total_data_volume_6",total_voice_mou_6 + total_data_volume_6,Candidate,Approved
+total_activity_7,Overall Engagement,"total_voice_mou_7, total_data_volume_7",total_voice_mou_7 + total_data_volume_7,Candidate,Approved
+total_activity_8,Overall Engagement,"total_voice_mou_8, total_data_volume_8",total_voice_mou_8 + total_data_volume_8,Candidate,Approved
+total_activity_change_6_to_8,Temporal Change,"total_activity_6, total_activity_8",total_activity_8 - total_activity_6,Candidate,Approved
+total_activity_pct_change_6_to_8,Temporal Percentage Change,"total_activity_6, total_activity_8",(total_activity_8 - total_activity_6) / abs(total_activity_6),Candidate,Approved
+total_activity_change_7_to_8,Temporal Change,"total_activity_7, total_activity_8",total_activity_8 - total_activity_7,Candidate,Approved
+total_activity_pct_change_7_to_8,Temporal Percentage Change,"total_activity_7, total_activity_8",(total_activity_8 - total_activity_7) / abs(total_activity_7),Candidate,Approved
+voice_inactive_6,Activity Signal,total_voice_mou_6,1 when total voice usage equals zero; missing remains non-zero signal,Candidate,Approved
+data_inactive_6,Activity Signal,total_data_volume_6,1 when total data volume equals zero,Candidate,Approved
+voice_inactive_7,Activity Signal,total_voice_mou_7,1 when total voice usage equals zero; missing remains non-zero signal,Candidate,Approved
+data_inactive_7,Activity Signal,total_data_volume_7,1 when total data volume equals zero,Candidate,Approved
+voice_inactive_8,Activity Signal,total_voice_mou_8,1 when total voice usage equals zero; missing remains non-zero signal,Candidate,Approved
+data_inactive_8,Activity Signal,total_data_volume_8,1 when total data volume equals zero,Candidate,Approved
+overall_inactive_8,Activity Signal,"voice_inactive_8, data_inactive_8",1 when both August voice and data activity are zero,Candidate,Approved
+arpu_recent_vs_baseline,Recent vs Baseline,"arpu_8, arpu_avg_6_8",arpu_8 - arpu_avg_6_8,Candidate,Approved
+arpu_recent_vs_baseline_pct,Recent vs Baseline,"arpu_8, arpu_avg_6_8",(arpu_8 - arpu_avg_6_8) / abs(arpu_avg_6_8),Candidate,Approved
+recharge_amount_recent_vs_baseline,Recent vs Baseline,"total_rech_amt_8, recharge_amount_avg_6_8",total_rech_amt_8 - recharge_amount_avg_6_8,Candidate,Approved
+recharge_amount_recent_vs_baseline_pct,Recent vs Baseline,"total_rech_amt_8, recharge_amount_avg_6_8",(total_rech_amt_8 - recharge_amount_avg_6_8) / abs(recharge_amount_avg_6_8),Candidate,Approved
+recharge_count_recent_vs_baseline,Recent vs Baseline,"total_rech_num_8, recharge_count_avg_6_8",total_rech_num_8 - recharge_count_avg_6_8,Candidate,Approved
+recharge_count_recent_vs_baseline_pct,Recent vs Baseline,"total_rech_num_8, recharge_count_avg_6_8",(total_rech_num_8 - recharge_count_avg_6_8) / abs(recharge_count_avg_6_8),Candidate,Approved
+recharge_value_per_transaction_8,Customer Value,"total_rech_amt_8, total_rech_num_8",August total recharge amount / recharge count,Candidate,Approved
+arpu_to_recharge_ratio_8,Customer Value,"arpu_8, total_rech_amt_8",August ARPU / absolute August recharge amount,Candidate,Approved
+no_recharge_amt_6,Recharge Activity,total_rech_amt_6,1 when recharge amount equals zero,Candidate,Approved
+no_recharge_count_6,Recharge Activity,total_rech_num_6,1 when recharge count equals zero,Candidate,Approved
+no_recharge_amt_7,Recharge Activity,total_rech_amt_7,1 when recharge amount equals zero,Candidate,Approved
+no_recharge_count_7,Recharge Activity,total_rech_num_7,1 when recharge count equals zero,Candidate,Approved
+no_recharge_amt_8,Recharge Activity,total_rech_amt_8,1 when recharge amount equals zero,Candidate,Approved
+no_recharge_count_8,Recharge Activity,total_rech_num_8,1 when recharge count equals zero,Candidate,Approved
+behavioral_decline_count,Behavioral Deterioration,"arpu_pct_change_6_to_8, recharge_amt_pct_change_6_to_8, recharge_num_pct_change_6_to_8, total_activity_pct_change_6_to_8",Count of monitored behavioral metrics showing negative June-to-August change,Candidate,Approved
+arpu_trend_score,Behavior Trend,"arpu_6, arpu_7, arpu_8",Sum of month-to-month direction changes: -2 to +2,Candidate,Approved
+recharge_amount_trend_score,Behavior Trend,"total_rech_amt_6, total_rech_amt_7, total_rech_amt_8",Sum of month-to-month direction changes: -2 to +2,Candidate,Approved
+recharge_count_trend_score,Behavior Trend,"total_rech_num_6, total_rech_num_7, total_rech_num_8",Sum of month-to-month direction changes: -2 to +2,Candidate,Approved
+total_activity_trend_score,Behavior Trend,"total_activity_6, total_activity_7, total_activity_8",Sum of month-to-month direction changes: -2 to +2,Candidate,Approved
+august_value_activity_flag,Customer Value,"arpu_8, total_rech_amt_8, total_rech_num_8",Count of available August value/activity measures,Candidate,Approved
+voice_rech_recency_6_high_flag,Recency Signal,voice_rech_recency_6,1 when recency exceeds development-independent dataset median,Candidate,Approved
+voice_rech_recency_7_high_flag,Recency Signal,voice_rech_recency_7,1 when recency exceeds development-independent dataset median,Candidate,Approved
+voice_rech_recency_8_high_flag,Recency Signal,voice_rech_recency_8,1 when recency exceeds development-independent dataset median,Candidate,Approved
+data_rech_recency_6_high_flag,Recency Signal,data_rech_recency_6,1 when recency exceeds development-independent dataset median,Candidate,Approved
+data_rech_recency_7_high_flag,Recency Signal,data_rech_recency_7,1 when recency exceeds development-independent dataset median,Candidate,Approved
+data_rech_recency_8_high_flag,Recency Signal,data_rech_recency_8,1 when recency exceeds development-independent dataset median,Candidate,Approved

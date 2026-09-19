@@ -1,6 +1,49 @@
+# Python environments
 .venv/
+.venv_py314_backup/
+venv/
+env/
+
+# Python cache
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Jupyter
 .ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables / secrets
 .env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# OS files
 .DS_Store
+Thumbs.db
+
+# Logs / temporary files
+*.log
+*.tmp
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# ============================================================
+# ChurnIQ local / large data
+# ============================================================
+
+data/raw/
+data/processed/
+
+# Deployment artifacts
+deployment_data/*
+!deployment_data/customer_features.parquet
+!deployment_data/customer_value.parquet
+!deployment_data/imputation_medians.csv

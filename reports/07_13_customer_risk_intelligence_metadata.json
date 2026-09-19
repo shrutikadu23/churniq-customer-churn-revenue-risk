@@ -1,0 +1,39 @@
+{
+  "step": "7.13",
+  "purpose": "Customer Risk Intelligence",
+  "customer_universe": 69999,
+  "development_customers": 55999,
+  "validation_customers": 14000,
+  "risk_probability_source": "Step 7.11 tuned XGBoost",
+  "calibration_method": "sigmoid",
+  "calibrator_source": "models/xgb_probability_calibrator.joblib",
+  "threshold_source": "reports/07_12_threshold_selection.json",
+  "primary_threshold": 0.1,
+  "customer_value_proxy": "August ARPU (arpu_8)",
+  "negative_value_handling": "Preserved raw value; clipped to zero only for exposure calculations",
+  "revenue_exposure_definition": "Calibrated churn probability multiplied by non-negative August ARPU proxy",
+  "priority_definition": "Calibrated churn probability multiplied by normalized customer value percentile",
+  "risk_bands": {
+    "Very Low": "0% to <20%",
+    "Low": "20% to <40%",
+    "Medium": "40% to <60%",
+    "High": "60% to <80%",
+    "Very High": "80%+"
+  },
+  "intervention_framework": {
+    "Tier 1": "High/Very High risk and high-value customers",
+    "Tier 2": "High/Very High risk and standard-value customers",
+    "Tier 3": "Medium-risk and high-value customers",
+    "Tier 4": "Remaining customers; monitor and maintain engagement"
+  },
+  "governance": {
+    "model_retraining": false,
+    "additional_tuning": false,
+    "additional_calibration": false,
+    "feature_selection": false,
+    "test_data_loaded": false,
+    "validation_used_for_framework_selection": false,
+    "feature_freeze": true
+  },
+  "quality_gate": "PASS"
+}

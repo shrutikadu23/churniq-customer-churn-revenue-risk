@@ -1,0 +1,51 @@
+{
+  "phase": "13.4",
+  "title": "Retention Economics Sensitivity & Robustness Analysis",
+  "purpose": "Stress-test retention economics across assumed retention success rates and intervention costs.",
+  "input": "customer_targeting_cohorts_phase13.csv",
+  "customer_universe": 69999,
+  "cohorts": [
+    "Top 1%",
+    "Top 5%",
+    "Top 10%",
+    "Top 20%",
+    "High + Very High"
+  ],
+  "success_rates": [
+    0.1,
+    0.2,
+    0.3,
+    0.35,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8
+  ],
+  "intervention_costs_per_customer": [
+    100.0,
+    250.0,
+    500.0
+  ],
+  "expected_scenario_count": 135,
+  "actual_scenario_count": 135,
+  "evaluation_horizon_months": 12,
+  "robustness_definitions": {
+    "Robustly viable": "Break-even success <= 10%",
+    "Conditionally viable": "Break-even success > 10% and <= 50%",
+    "Weakly viable": "Break-even success > 50% and <= 80%",
+    "Not viable within tested range": "Break-even success > 80% or infeasible"
+  },
+  "governance": {
+    "model_retraining": false,
+    "recalibration": false,
+    "threshold_change": false,
+    "test_data_used": false,
+    "future_predictors_used": false,
+    "historical_churn_used_for_roi": false,
+    "success_rates_are_assumptions": true,
+    "intervention_costs_are_assumptions": true,
+    "roi_is_realized": false,
+    "revenue_saved_is_guaranteed": false
+  }
+}

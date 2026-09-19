@@ -1,0 +1,20 @@
+check,status,detail
+Customer universe,PASS,"69,999"
+Unique customer IDs,PASS,No duplicate IDs
+Valid churn probabilities,PASS,"[0, 1]"
+Non-negative revenue exposure,PASS,Exposure values valid
+Targeting cohort count,PASS,Five locked cohorts
+Scenario count,PASS,Three locked scenarios
+Economic row count,PASS,5 cohorts × 3 scenarios
+ROI calculation,PASS,ROI calculated
+Break-even calculation,PASS,Break-even success rate calculated
+Break-even feasibility,PASS,Required success rates are bounded
+Net value per customer,PASS,Calculated for all scenarios
+Cost-to-exposure ratio,PASS,Calculated for all scenarios
+No model changes,PASS,"No retraining, recalibration, or threshold changes"
+No test data,PASS,Phase 13.2 scored customer universe only
+Scenario assumptions governed,PASS,Retention success and intervention cost are assumptions
+One-time intervention cost assumption,PASS,Cost modeled once per targeted customer
+No realized ROI claim,PASS,Economics are scenario-based
+Historical churn excluded from ROI,PASS,Used only as descriptive context
+No guaranteed revenue claim,PASS,Revenue retained is expected scenario value

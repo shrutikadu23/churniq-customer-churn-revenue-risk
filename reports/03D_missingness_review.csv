@@ -1,0 +1,407 @@
+feature,missing_pct_dev,non_missing_pct_dev,feature_family
+loc_og_t2o_mou,1.0250183038982839,98.97498169610172,Voice / Call Behavior
+std_og_t2o_mou,1.0250183038982839,98.97498169610172,Voice / Call Behavior
+loc_ic_t2o_mou,1.0250183038982839,98.97498169610172,Voice / Call Behavior
+arpu_6,0.0,100.0,Customer Value
+arpu_7,0.0,100.0,Customer Value
+arpu_8,0.0,100.0,Customer Value
+onnet_mou_6,4.017928891587349,95.98207110841265,Voice / Call Behavior
+onnet_mou_7,3.8804264361863607,96.11957356381365,Voice / Call Behavior
+onnet_mou_8,5.36616725298666,94.63383274701334,Voice / Call Behavior
+offnet_mou_6,4.017928891587349,95.98207110841265,Voice / Call Behavior
+offnet_mou_7,3.8804264361863607,96.11957356381365,Voice / Call Behavior
+offnet_mou_8,5.36616725298666,94.63383274701334,Voice / Call Behavior
+roam_ic_mou_6,4.017928891587349,95.98207110841265,Voice / Call Behavior
+roam_ic_mou_7,3.8804264361863607,96.11957356381365,Voice / Call Behavior
+roam_ic_mou_8,5.36616725298666,94.63383274701334,Voice / Call Behavior
+roam_og_mou_6,4.017928891587349,95.98207110841265,Voice / Call Behavior
+roam_og_mou_7,3.8804264361863607,96.11957356381365,Voice / Call Behavior
+roam_og_mou_8,5.36616725298666,94.63383274701334,Voice / Call Behavior
+loc_og_t2t_mou_6,4.017928891587349,95.98207110841265,Voice / Call Behavior
+loc_og_t2t_mou_7,3.8804264361863607,96.11957356381365,Voice / Call Behavior
+loc_og_t2t_mou_8,5.36616725298666,94.63383274701334,Voice / Call Behavior
+loc_og_t2m_mou_6,4.017928891587349,95.98207110841265,Voice / Call Behavior
+loc_og_t2m_mou_7,3.8804264361863607,96.11957356381365,Voice / Call Behavior
+loc_og_t2m_mou_8,5.36616725298666,94.63383274701334,Voice / Call Behavior
+loc_og_t2f_mou_6,4.017928891587349,95.98207110841265,Voice / Call Behavior
+loc_og_t2f_mou_7,3.8804264361863607,96.11957356381365,Voice / Call Behavior
+loc_og_t2f_mou_8,5.36616725298666,94.63383274701334,Voice / Call Behavior
+loc_og_t2c_mou_6,4.017928891587349,95.98207110841265,Voice / Call Behavior
+loc_og_t2c_mou_7,3.8804264361863607,96.11957356381365,Voice / Call Behavior
+loc_og_t2c_mou_8,5.36616725298666,94.63383274701334,Voice / Call Behavior
+loc_og_mou_6,4.017928891587349,95.98207110841265,Voice / Call Behavior
+loc_og_mou_7,3.8804264361863607,96.11957356381365,Voice / Call Behavior
+loc_og_mou_8,5.36616725298666,94.63383274701334,Voice / Call Behavior
+std_og_t2t_mou_6,4.017928891587349,95.98207110841265,Voice / Call Behavior
+std_og_t2t_mou_7,3.8804264361863607,96.11957356381365,Voice / Call Behavior
+std_og_t2t_mou_8,5.36616725298666,94.63383274701334,Voice / Call Behavior
+std_og_t2m_mou_6,4.017928891587349,95.98207110841265,Voice / Call Behavior
+std_og_t2m_mou_7,3.8804264361863607,96.11957356381365,Voice / Call Behavior
+std_og_t2m_mou_8,5.36616725298666,94.63383274701334,Voice / Call Behavior
+std_og_t2f_mou_6,4.017928891587349,95.98207110841265,Voice / Call Behavior
+std_og_t2f_mou_7,3.8804264361863607,96.11957356381365,Voice / Call Behavior
+std_og_t2f_mou_8,5.36616725298666,94.63383274701334,Voice / Call Behavior
+std_og_t2c_mou_6,4.017928891587349,95.98207110841265,Voice / Call Behavior
+std_og_t2c_mou_7,3.8804264361863607,96.11957356381365,Voice / Call Behavior
+std_og_t2c_mou_8,5.36616725298666,94.63383274701334,Voice / Call Behavior
+std_og_mou_6,4.017928891587349,95.98207110841265,Voice / Call Behavior
+std_og_mou_7,3.8804264361863607,96.11957356381365,Voice / Call Behavior
+std_og_mou_8,5.36616725298666,94.63383274701334,Voice / Call Behavior
+isd_og_mou_6,4.017928891587349,95.98207110841265,Voice / Call Behavior
+isd_og_mou_7,3.8804264361863607,96.11957356381365,Voice / Call Behavior
+isd_og_mou_8,5.36616725298666,94.63383274701334,Voice / Call Behavior
+spl_og_mou_6,4.017928891587349,95.98207110841265,Voice / Call Behavior
+spl_og_mou_7,3.8804264361863607,96.11957356381365,Voice / Call Behavior
+spl_og_mou_8,5.36616725298666,94.63383274701334,Voice / Call Behavior
+og_others_6,4.017928891587349,95.98207110841265,Voice / Call Behavior
+og_others_7,3.8804264361863607,96.11957356381365,Voice / Call Behavior
+og_others_8,5.36616725298666,94.63383274701334,Voice / Call Behavior
+total_og_mou_6,0.0,100.0,Voice / Call Behavior
+total_og_mou_7,0.0,100.0,Voice / Call Behavior
+total_og_mou_8,0.0,100.0,Voice / Call Behavior
+loc_ic_t2t_mou_6,4.017928891587349,95.98207110841265,Voice / Call Behavior
+loc_ic_t2t_mou_7,3.8804264361863607,96.11957356381365,Voice / Call Behavior
+loc_ic_t2t_mou_8,5.36616725298666,94.63383274701334,Voice / Call Behavior
+loc_ic_t2m_mou_6,4.017928891587349,95.98207110841265,Voice / Call Behavior
+loc_ic_t2m_mou_7,3.8804264361863607,96.11957356381365,Voice / Call Behavior
+loc_ic_t2m_mou_8,5.36616725298666,94.63383274701334,Voice / Call Behavior
+loc_ic_t2f_mou_6,4.017928891587349,95.98207110841265,Voice / Call Behavior
+loc_ic_t2f_mou_7,3.8804264361863607,96.11957356381365,Voice / Call Behavior
+loc_ic_t2f_mou_8,5.36616725298666,94.63383274701334,Voice / Call Behavior
+loc_ic_mou_6,4.017928891587349,95.98207110841265,Voice / Call Behavior
+loc_ic_mou_7,3.8804264361863607,96.11957356381365,Voice / Call Behavior
+loc_ic_mou_8,5.36616725298666,94.63383274701334,Voice / Call Behavior
+std_ic_t2t_mou_6,4.017928891587349,95.98207110841265,Voice / Call Behavior
+std_ic_t2t_mou_7,3.8804264361863607,96.11957356381365,Voice / Call Behavior
+std_ic_t2t_mou_8,5.36616725298666,94.63383274701334,Voice / Call Behavior
+std_ic_t2m_mou_6,4.017928891587349,95.98207110841265,Voice / Call Behavior
+std_ic_t2m_mou_7,3.8804264361863607,96.11957356381365,Voice / Call Behavior
+std_ic_t2m_mou_8,5.36616725298666,94.63383274701334,Voice / Call Behavior
+std_ic_t2f_mou_6,4.017928891587349,95.98207110841265,Voice / Call Behavior
+std_ic_t2f_mou_7,3.8804264361863607,96.11957356381365,Voice / Call Behavior
+std_ic_t2f_mou_8,5.36616725298666,94.63383274701334,Voice / Call Behavior
+std_ic_t2o_mou_6,4.017928891587349,95.98207110841265,Voice / Call Behavior
+std_ic_t2o_mou_7,3.8804264361863607,96.11957356381365,Voice / Call Behavior
+std_ic_t2o_mou_8,5.36616725298666,94.63383274701334,Voice / Call Behavior
+std_ic_mou_6,4.017928891587349,95.98207110841265,Voice / Call Behavior
+std_ic_mou_7,3.8804264361863607,96.11957356381365,Voice / Call Behavior
+std_ic_mou_8,5.36616725298666,94.63383274701334,Voice / Call Behavior
+total_ic_mou_6,0.0,100.0,Voice / Call Behavior
+total_ic_mou_7,0.0,100.0,Voice / Call Behavior
+total_ic_mou_8,0.0,100.0,Voice / Call Behavior
+spl_ic_mou_6,4.017928891587349,95.98207110841265,Voice / Call Behavior
+spl_ic_mou_7,3.8804264361863607,96.11957356381365,Voice / Call Behavior
+spl_ic_mou_8,5.36616725298666,94.63383274701334,Voice / Call Behavior
+isd_ic_mou_6,4.017928891587349,95.98207110841265,Voice / Call Behavior
+isd_ic_mou_7,3.8804264361863607,96.11957356381365,Voice / Call Behavior
+isd_ic_mou_8,5.36616725298666,94.63383274701334,Voice / Call Behavior
+ic_others_6,4.017928891587349,95.98207110841265,Voice / Call Behavior
+ic_others_7,3.8804264361863607,96.11957356381365,Voice / Call Behavior
+ic_others_8,5.36616725298666,94.63383274701334,Voice / Call Behavior
+total_rech_num_6,0.0,100.0,Recharge Activity
+total_rech_num_7,0.0,100.0,Recharge Activity
+total_rech_num_8,0.0,100.0,Recharge Activity
+total_rech_amt_6,0.0,100.0,Recharge Activity
+total_rech_amt_7,0.0,100.0,Recharge Activity
+total_rech_amt_8,0.0,100.0,Recharge Activity
+max_rech_amt_6,0.0,100.0,Recharge Activity
+max_rech_amt_7,0.0,100.0,Recharge Activity
+max_rech_amt_8,0.0,100.0,Recharge Activity
+date_of_last_rech_6,1.6232432722012893,98.3767567277987,Recharge Activity
+date_of_last_rech_7,1.757174235254201,98.2428257647458,Recharge Activity
+date_of_last_rech_8,3.5482776478151394,96.45172235218486,Recharge Activity
+last_day_rch_amt_6,0.0,100.0,Original / Other
+last_day_rch_amt_7,0.0,100.0,Original / Other
+last_day_rch_amt_8,0.0,100.0,Original / Other
+date_of_last_rech_data_6,74.97455311701995,25.02544688298005,Recharge Activity
+date_of_last_rech_data_7,74.50847336559582,25.49152663440418,Recharge Activity
+date_of_last_rech_data_8,73.76203146484758,26.23796853515242,Recharge Activity
+total_rech_data_6,74.97455311701995,25.02544688298005,Recharge Activity
+total_rech_data_7,74.50847336559582,25.49152663440418,Recharge Activity
+total_rech_data_8,73.76203146484758,26.23796853515242,Recharge Activity
+max_rech_data_6,74.97455311701995,25.02544688298005,Recharge Activity
+max_rech_data_7,74.50847336559582,25.49152663440418,Recharge Activity
+max_rech_data_8,73.76203146484758,26.23796853515242,Recharge Activity
+count_rech_2g_6,74.97455311701995,25.02544688298005,Recharge Activity
+count_rech_2g_7,74.50847336559582,25.49152663440418,Recharge Activity
+count_rech_2g_8,73.76203146484758,26.23796853515242,Recharge Activity
+count_rech_3g_6,74.97455311701995,25.02544688298005,Recharge Activity
+count_rech_3g_7,74.50847336559582,25.49152663440418,Recharge Activity
+count_rech_3g_8,73.76203146484758,26.23796853515242,Recharge Activity
+av_rech_amt_data_6,74.97455311701995,25.02544688298005,Recharge Activity
+av_rech_amt_data_7,74.50847336559582,25.49152663440418,Recharge Activity
+av_rech_amt_data_8,73.76203146484758,26.23796853515242,Recharge Activity
+vol_2g_mb_6,0.0,100.0,Data Engagement
+vol_2g_mb_7,0.0,100.0,Data Engagement
+vol_2g_mb_8,0.0,100.0,Data Engagement
+vol_3g_mb_6,0.0,100.0,Data Engagement
+vol_3g_mb_7,0.0,100.0,Data Engagement
+vol_3g_mb_8,0.0,100.0,Data Engagement
+arpu_3g_6,74.97455311701995,25.02544688298005,Customer Value
+arpu_3g_7,74.50847336559582,25.49152663440418,Customer Value
+arpu_3g_8,73.76203146484758,26.23796853515242,Customer Value
+arpu_2g_6,74.97455311701995,25.02544688298005,Customer Value
+arpu_2g_7,74.50847336559582,25.49152663440418,Customer Value
+arpu_2g_8,73.76203146484758,26.23796853515242,Customer Value
+night_pck_user_6,74.97455311701995,25.02544688298005,Original / Other
+night_pck_user_7,74.50847336559582,25.49152663440418,Original / Other
+night_pck_user_8,73.76203146484758,26.23796853515242,Original / Other
+monthly_2g_6,0.0,100.0,Data Engagement
+monthly_2g_7,0.0,100.0,Data Engagement
+monthly_2g_8,0.0,100.0,Data Engagement
+sachet_2g_6,0.0,100.0,Data Engagement
+sachet_2g_7,0.0,100.0,Data Engagement
+sachet_2g_8,0.0,100.0,Data Engagement
+monthly_3g_6,0.0,100.0,Data Engagement
+monthly_3g_7,0.0,100.0,Data Engagement
+monthly_3g_8,0.0,100.0,Data Engagement
+sachet_3g_6,0.0,100.0,Data Engagement
+sachet_3g_7,0.0,100.0,Data Engagement
+sachet_3g_8,0.0,100.0,Data Engagement
+fb_user_6,74.97455311701995,25.02544688298005,Original / Other
+fb_user_7,74.50847336559582,25.49152663440418,Original / Other
+fb_user_8,73.76203146484758,26.23796853515242,Original / Other
+aon,0.0,100.0,Customer Tenure
+aug_vbc_3g,0.0,100.0,Data Engagement
+jul_vbc_3g,0.0,100.0,Data Engagement
+jun_vbc_3g,0.0,100.0,Data Engagement
+date_of_last_rech_6_missing,0.0,100.0,Recharge Activity
+date_of_last_rech_7_missing,0.0,100.0,Recharge Activity
+date_of_last_rech_8_missing,0.0,100.0,Recharge Activity
+date_of_last_rech_data_6_missing,0.0,100.0,Recharge Activity
+date_of_last_rech_data_7_missing,0.0,100.0,Recharge Activity
+date_of_last_rech_data_8_missing,0.0,100.0,Recharge Activity
+voice_rech_recency_6,1.6232432722012893,98.3767567277987,Recharge Activity
+voice_rech_recency_7,1.757174235254201,98.2428257647458,Recharge Activity
+voice_rech_recency_8,3.5482776478151394,96.45172235218486,Recharge Activity
+data_rech_recency_6,74.97455311701995,25.02544688298005,Recharge Activity
+data_rech_recency_7,74.50847336559582,25.49152663440418,Recharge Activity
+data_rech_recency_8,73.76203146484758,26.23796853515242,Recharge Activity
+av_rech_amt_data_6_missing,0.0,100.0,Recharge Activity
+av_rech_amt_data_7_missing,0.0,100.0,Recharge Activity
+av_rech_amt_data_8_missing,0.0,100.0,Recharge Activity
+count_rech_2g_6_missing,0.0,100.0,Recharge Activity
+count_rech_2g_7_missing,0.0,100.0,Recharge Activity
+count_rech_2g_8_missing,0.0,100.0,Recharge Activity
+count_rech_3g_6_missing,0.0,100.0,Recharge Activity
+count_rech_3g_7_missing,0.0,100.0,Recharge Activity
+count_rech_3g_8_missing,0.0,100.0,Recharge Activity
+fb_user_6_missing,0.0,100.0,Missingness Signal
+fb_user_7_missing,0.0,100.0,Missingness Signal
+fb_user_8_missing,0.0,100.0,Missingness Signal
+max_rech_data_6_missing,0.0,100.0,Recharge Activity
+max_rech_data_7_missing,0.0,100.0,Recharge Activity
+max_rech_data_8_missing,0.0,100.0,Recharge Activity
+night_pck_user_6_missing,0.0,100.0,Missingness Signal
+night_pck_user_7_missing,0.0,100.0,Missingness Signal
+night_pck_user_8_missing,0.0,100.0,Missingness Signal
+total_rech_data_6_missing,0.0,100.0,Recharge Activity
+total_rech_data_7_missing,0.0,100.0,Recharge Activity
+total_rech_data_8_missing,0.0,100.0,Recharge Activity
+onnet_mou_8_missing,0.0,100.0,Voice / Call Behavior
+offnet_mou_8_missing,0.0,100.0,Voice / Call Behavior
+roam_ic_mou_8_missing,0.0,100.0,Voice / Call Behavior
+roam_og_mou_8_missing,0.0,100.0,Voice / Call Behavior
+loc_og_t2t_mou_8_missing,0.0,100.0,Voice / Call Behavior
+loc_og_t2m_mou_8_missing,0.0,100.0,Voice / Call Behavior
+loc_og_t2f_mou_8_missing,0.0,100.0,Voice / Call Behavior
+loc_og_t2c_mou_8_missing,0.0,100.0,Voice / Call Behavior
+loc_og_mou_8_missing,0.0,100.0,Voice / Call Behavior
+std_og_t2t_mou_8_missing,0.0,100.0,Voice / Call Behavior
+std_og_t2m_mou_8_missing,0.0,100.0,Voice / Call Behavior
+std_og_t2f_mou_8_missing,0.0,100.0,Voice / Call Behavior
+std_og_t2c_mou_8_missing,0.0,100.0,Voice / Call Behavior
+std_og_mou_8_missing,0.0,100.0,Voice / Call Behavior
+isd_og_mou_8_missing,0.0,100.0,Voice / Call Behavior
+spl_og_mou_8_missing,0.0,100.0,Voice / Call Behavior
+loc_ic_t2t_mou_8_missing,0.0,100.0,Voice / Call Behavior
+loc_ic_t2m_mou_8_missing,0.0,100.0,Voice / Call Behavior
+loc_ic_t2f_mou_8_missing,0.0,100.0,Voice / Call Behavior
+loc_ic_mou_8_missing,0.0,100.0,Voice / Call Behavior
+std_ic_t2t_mou_8_missing,0.0,100.0,Voice / Call Behavior
+std_ic_t2m_mou_8_missing,0.0,100.0,Voice / Call Behavior
+std_ic_t2f_mou_8_missing,0.0,100.0,Voice / Call Behavior
+std_ic_t2o_mou_8_missing,0.0,100.0,Voice / Call Behavior
+std_ic_mou_8_missing,0.0,100.0,Voice / Call Behavior
+spl_ic_mou_8_missing,0.0,100.0,Voice / Call Behavior
+isd_ic_mou_8_missing,0.0,100.0,Voice / Call Behavior
+tenure_years,0.0,100.0,Customer Tenure
+tenure_band,0.0,100.0,Customer Tenure
+arpu_avg_6_8,0.0,100.0,Customer Value
+arpu_min_6_8,0.0,100.0,Customer Value
+arpu_max_6_8,0.0,100.0,Customer Value
+arpu_std_6_8,0.0,100.0,Customer Value
+arpu_change_6_to_8,0.0,100.0,Customer Value
+arpu_pct_change_6_to_8,3.7786389042661477,96.22136109573385,Customer Value
+arpu_change_7_to_8,0.0,100.0,Customer Value
+arpu_pct_change_7_to_8,3.8357827818353902,96.16421721816461,Customer Value
+recharge_amount_avg_6_8,0.0,100.0,Recharge Activity
+recharge_amount_min_6_8,0.0,100.0,Recharge Activity
+recharge_amount_max_6_8,0.0,100.0,Recharge Activity
+recharge_amount_std_6_8,0.0,100.0,Recharge Activity
+recharge_count_avg_6_8,0.0,100.0,Recharge Activity
+recharge_count_min_6_8,0.0,100.0,Recharge Activity
+recharge_count_max_6_8,0.0,100.0,Recharge Activity
+recharge_count_std_6_8,0.0,100.0,Recharge Activity
+recharge_amt_change_6_to_8,0.0,100.0,Recharge Activity
+recharge_amt_pct_change_6_to_8,11.23412918087823,88.76587081912177,Recharge Activity
+recharge_amt_change_7_to_8,0.0,100.0,Recharge Activity
+recharge_amt_pct_change_7_to_8,11.787710494830266,88.21228950516974,Recharge Activity
+recharge_num_change_6_to_8,0.0,100.0,Recharge Activity
+recharge_num_pct_change_6_to_8,1.6232432722012893,98.3767567277987,Recharge Activity
+avg_recharge_amt_8,3.5482776478151394,96.45172235218486,Recharge Activity
+total_og_mou_avg_6_8,0.0,100.0,Voice / Call Behavior
+total_og_mou_min_6_8,0.0,100.0,Voice / Call Behavior
+total_og_mou_max_6_8,0.0,100.0,Voice / Call Behavior
+total_og_mou_std_6_8,0.0,100.0,Voice / Call Behavior
+total_og_mou_change_6_to_8,0.0,100.0,Voice / Call Behavior
+total_og_mou_pct_change_6_to_8,10.10910909123377,89.89089090876622,Voice / Call Behavior
+total_og_mou_change_7_to_8,0.0,100.0,Voice / Call Behavior
+total_og_mou_pct_change_7_to_8,9.739459633207735,90.26054036679227,Voice / Call Behavior
+total_ic_mou_avg_6_8,0.0,100.0,Voice / Call Behavior
+total_ic_mou_min_6_8,0.0,100.0,Voice / Call Behavior
+total_ic_mou_max_6_8,0.0,100.0,Voice / Call Behavior
+total_ic_mou_std_6_8,0.0,100.0,Voice / Call Behavior
+total_ic_mou_change_6_to_8,0.0,100.0,Voice / Call Behavior
+total_ic_mou_pct_change_6_to_8,8.532295219557492,91.4677047804425,Voice / Call Behavior
+total_ic_mou_change_7_to_8,0.0,100.0,Voice / Call Behavior
+total_ic_mou_pct_change_7_to_8,7.967999428561225,92.03200057143877,Voice / Call Behavior
+loc_og_mou_avg_6_8,1.1071626279040698,98.89283737209593,Voice / Call Behavior
+loc_og_mou_min_6_8,1.1071626279040698,98.89283737209593,Voice / Call Behavior
+loc_og_mou_max_6_8,1.1071626279040698,98.89283737209593,Voice / Call Behavior
+loc_og_mou_std_6_8,1.1071626279040698,98.89283737209593,Voice / Call Behavior
+loc_og_mou_change_6_to_8,8.084072929873749,91.91592707012626,Voice / Call Behavior
+loc_og_mou_pct_change_6_to_8,15.748495508848373,84.25150449115162,Voice / Call Behavior
+loc_og_mou_change_7_to_8,6.889408739441776,93.11059126055822,Voice / Call Behavior
+loc_og_mou_pct_change_7_to_8,14.03775067411918,85.96224932588082,Voice / Call Behavior
+std_og_mou_avg_6_8,1.1071626279040698,98.89283737209593,Voice / Call Behavior
+std_og_mou_min_6_8,1.1071626279040698,98.89283737209593,Voice / Call Behavior
+std_og_mou_max_6_8,1.1071626279040698,98.89283737209593,Voice / Call Behavior
+std_og_mou_std_6_8,1.1071626279040698,98.89283737209593,Voice / Call Behavior
+std_og_mou_change_6_to_8,8.084072929873749,91.91592707012626,Voice / Call Behavior
+std_og_mou_pct_change_6_to_8,36.39172128073716,63.60827871926284,Voice / Call Behavior
+std_og_mou_change_7_to_8,6.889408739441776,93.11059126055822,Voice / Call Behavior
+std_og_mou_pct_change_7_to_8,36.03992928445151,63.96007071554849,Voice / Call Behavior
+isd_og_mou_avg_6_8,1.1071626279040698,98.89283737209593,Voice / Call Behavior
+isd_og_mou_min_6_8,1.1071626279040698,98.89283737209593,Voice / Call Behavior
+isd_og_mou_max_6_8,1.1071626279040698,98.89283737209593,Voice / Call Behavior
+isd_og_mou_std_6_8,1.1071626279040698,98.89283737209593,Voice / Call Behavior
+isd_og_mou_change_6_to_8,8.084072929873749,91.91592707012626,Voice / Call Behavior
+isd_og_mou_pct_change_6_to_8,95.48563367202986,4.514366327970137,Voice / Call Behavior
+isd_og_mou_change_7_to_8,6.889408739441776,93.11059126055822,Voice / Call Behavior
+isd_og_mou_pct_change_7_to_8,95.73385239022126,4.266147609778741,Voice / Call Behavior
+roam_og_mou_avg_6_8,1.1071626279040698,98.89283737209593,Voice / Call Behavior
+roam_og_mou_min_6_8,1.1071626279040698,98.89283737209593,Voice / Call Behavior
+roam_og_mou_max_6_8,1.1071626279040698,98.89283737209593,Voice / Call Behavior
+roam_og_mou_std_6_8,1.1071626279040698,98.89283737209593,Voice / Call Behavior
+roam_og_mou_change_6_to_8,8.084072929873749,91.91592707012626,Voice / Call Behavior
+roam_og_mou_pct_change_6_to_8,81.59074269183378,18.409257308166218,Voice / Call Behavior
+roam_og_mou_change_7_to_8,6.889408739441776,93.11059126055822,Voice / Call Behavior
+roam_og_mou_pct_change_7_to_8,86.00153574170967,13.998464258290326,Voice / Call Behavior
+loc_ic_mou_avg_6_8,1.1071626279040698,98.89283737209593,Voice / Call Behavior
+loc_ic_mou_min_6_8,1.1071626279040698,98.89283737209593,Voice / Call Behavior
+loc_ic_mou_max_6_8,1.1071626279040698,98.89283737209593,Voice / Call Behavior
+loc_ic_mou_std_6_8,1.1071626279040698,98.89283737209593,Voice / Call Behavior
+loc_ic_mou_change_6_to_8,8.084072929873749,91.91592707012626,Voice / Call Behavior
+loc_ic_mou_pct_change_6_to_8,12.859158199253558,87.14084180074644,Voice / Call Behavior
+loc_ic_mou_change_7_to_8,6.889408739441776,93.11059126055822,Voice / Call Behavior
+loc_ic_mou_pct_change_7_to_8,10.946624046857979,89.05337595314202,Voice / Call Behavior
+std_ic_mou_avg_6_8,1.1071626279040698,98.89283737209593,Voice / Call Behavior
+std_ic_mou_min_6_8,1.1071626279040698,98.89283737209593,Voice / Call Behavior
+std_ic_mou_max_6_8,1.1071626279040698,98.89283737209593,Voice / Call Behavior
+std_ic_mou_std_6_8,1.1071626279040698,98.89283737209593,Voice / Call Behavior
+std_ic_mou_change_6_to_8,8.084072929873749,91.91592707012626,Voice / Call Behavior
+std_ic_mou_pct_change_6_to_8,31.234486330113036,68.76551366988696,Voice / Call Behavior
+std_ic_mou_change_7_to_8,6.889408739441776,93.11059126055822,Voice / Call Behavior
+std_ic_mou_pct_change_7_to_8,29.920177146020464,70.07982285397954,Voice / Call Behavior
+isd_ic_mou_avg_6_8,1.1071626279040698,98.89283737209593,Voice / Call Behavior
+isd_ic_mou_min_6_8,1.1071626279040698,98.89283737209593,Voice / Call Behavior
+isd_ic_mou_max_6_8,1.1071626279040698,98.89283737209593,Voice / Call Behavior
+isd_ic_mou_std_6_8,1.1071626279040698,98.89283737209593,Voice / Call Behavior
+isd_ic_mou_change_6_to_8,8.084072929873749,91.91592707012626,Voice / Call Behavior
+isd_ic_mou_pct_change_6_to_8,85.1979499633922,14.802050036607795,Voice / Call Behavior
+isd_ic_mou_change_7_to_8,6.889408739441776,93.11059126055822,Voice / Call Behavior
+isd_ic_mou_pct_change_7_to_8,84.23364702941124,15.766352970588756,Voice / Call Behavior
+roam_ic_mou_avg_6_8,1.1071626279040698,98.89283737209593,Voice / Call Behavior
+roam_ic_mou_min_6_8,1.1071626279040698,98.89283737209593,Voice / Call Behavior
+roam_ic_mou_max_6_8,1.1071626279040698,98.89283737209593,Voice / Call Behavior
+roam_ic_mou_std_6_8,1.1071626279040698,98.89283737209593,Voice / Call Behavior
+roam_ic_mou_change_6_to_8,8.084072929873749,91.91592707012626,Voice / Call Behavior
+roam_ic_mou_pct_change_6_to_8,81.61217164592225,18.387828354077755,Voice / Call Behavior
+roam_ic_mou_change_7_to_8,6.889408739441776,93.11059126055822,Voice / Call Behavior
+roam_ic_mou_pct_change_7_to_8,85.94617761031446,14.053822389685536,Voice / Call Behavior
+vol_2g_mb_avg_6_8,0.0,100.0,Data Engagement
+vol_2g_mb_min_6_8,0.0,100.0,Data Engagement
+vol_2g_mb_max_6_8,0.0,100.0,Data Engagement
+vol_2g_mb_std_6_8,0.0,100.0,Data Engagement
+vol_2g_mb_change_6_to_8,0.0,100.0,Data Engagement
+vol_2g_mb_pct_change_6_to_8,77.8103180413936,22.1896819586064,Data Engagement
+vol_3g_mb_avg_6_8,0.0,100.0,Data Engagement
+vol_3g_mb_min_6_8,0.0,100.0,Data Engagement
+vol_3g_mb_max_6_8,0.0,100.0,Data Engagement
+vol_3g_mb_std_6_8,0.0,100.0,Data Engagement
+vol_3g_mb_change_6_to_8,0.0,100.0,Data Engagement
+vol_3g_mb_pct_change_6_to_8,85.44259718923553,14.557402810764472,Data Engagement
+total_rech_data_avg_6_8,62.70111966285113,37.29888033714887,Recharge Activity
+total_rech_data_min_6_8,62.70111966285113,37.29888033714887,Recharge Activity
+total_rech_data_max_6_8,62.70111966285113,37.29888033714887,Recharge Activity
+total_rech_data_std_6_8,62.70111966285113,37.29888033714887,Recharge Activity
+total_rech_data_change_6_to_8,82.62647547277629,17.373524527223708,Recharge Activity
+total_rech_data_pct_change_6_to_8,82.62647547277629,17.373524527223708,Recharge Activity
+max_rech_data_avg_6_8,62.70111966285113,37.29888033714887,Recharge Activity
+max_rech_data_min_6_8,62.70111966285113,37.29888033714887,Recharge Activity
+max_rech_data_max_6_8,62.70111966285113,37.29888033714887,Recharge Activity
+max_rech_data_std_6_8,62.70111966285113,37.29888033714887,Recharge Activity
+max_rech_data_change_6_to_8,82.62647547277629,17.373524527223708,Recharge Activity
+max_rech_data_pct_change_6_to_8,82.62647547277629,17.373524527223708,Recharge Activity
+av_rech_amt_data_avg_6_8,62.70111966285113,37.29888033714887,Recharge Activity
+av_rech_amt_data_min_6_8,62.70111966285113,37.29888033714887,Recharge Activity
+av_rech_amt_data_max_6_8,62.70111966285113,37.29888033714887,Recharge Activity
+av_rech_amt_data_std_6_8,62.70111966285113,37.29888033714887,Recharge Activity
+av_rech_amt_data_change_6_to_8,82.62647547277629,17.373524527223708,Recharge Activity
+av_rech_amt_data_pct_change_6_to_8,82.62647547277629,17.373524527223708,Recharge Activity
+total_data_volume_6,0.0,100.0,Data Engagement
+total_data_volume_7,0.0,100.0,Data Engagement
+total_data_volume_8,0.0,100.0,Data Engagement
+total_voice_mou_6,0.0,100.0,Voice / Call Behavior
+total_voice_mou_7,0.0,100.0,Voice / Call Behavior
+total_voice_mou_8,0.0,100.0,Voice / Call Behavior
+total_activity_6,0.0,100.0,Activity Signal
+total_activity_7,0.0,100.0,Activity Signal
+total_activity_8,0.0,100.0,Activity Signal
+total_activity_change_6_to_8,0.0,100.0,Temporal Change
+total_activity_pct_change_6_to_8,6.842979338916766,93.15702066108324,Temporal Change
+total_activity_change_7_to_8,0.0,100.0,Temporal Change
+total_activity_pct_change_7_to_8,6.462615403846497,93.5373845961535,Temporal Change
+voice_inactive_6,0.0,100.0,Voice / Call Behavior
+data_inactive_6,0.0,100.0,Data Engagement
+voice_inactive_7,0.0,100.0,Voice / Call Behavior
+data_inactive_7,0.0,100.0,Data Engagement
+voice_inactive_8,0.0,100.0,Voice / Call Behavior
+data_inactive_8,0.0,100.0,Data Engagement
+overall_inactive_8,0.0,100.0,Activity Signal
+arpu_recent_vs_baseline,0.0,100.0,Customer Value
+arpu_recent_vs_baseline_pct,0.0,100.0,Customer Value
+recharge_amount_recent_vs_baseline,0.0,100.0,Recharge Activity
+recharge_amount_recent_vs_baseline_pct,0.7821568242290041,99.217843175771,Recharge Activity
+recharge_count_recent_vs_baseline,0.0,100.0,Recharge Activity
+recharge_count_recent_vs_baseline_pct,0.10000178574617405,99.89999821425383,Recharge Activity
+recharge_value_per_transaction_8,3.5482776478151394,96.45172235218486,Customer Value
+arpu_to_recharge_ratio_8,13.643100769656602,86.3568992303434,Customer Value
+no_recharge_amt_6,0.0,100.0,Recharge Activity
+no_recharge_count_6,0.0,100.0,Recharge Activity
+no_recharge_amt_7,0.0,100.0,Recharge Activity
+no_recharge_count_7,0.0,100.0,Recharge Activity
+no_recharge_amt_8,0.0,100.0,Recharge Activity
+no_recharge_count_8,0.0,100.0,Recharge Activity
+behavioral_decline_count,0.0,100.0,Behavioral Trend
+arpu_trend_score,0.0,100.0,Customer Value
+recharge_amount_trend_score,0.0,100.0,Recharge Activity
+recharge_count_trend_score,0.0,100.0,Recharge Activity
+total_activity_trend_score,0.0,100.0,Behavioral Trend
+voice_rech_recency_6_high_flag,0.0,100.0,Recharge Activity
+voice_rech_recency_7_high_flag,0.0,100.0,Recharge Activity
+voice_rech_recency_8_high_flag,0.0,100.0,Recharge Activity
+data_rech_recency_6_high_flag,0.0,100.0,Recharge Activity
+data_rech_recency_7_high_flag,0.0,100.0,Recharge Activity
+data_rech_recency_8_high_flag,0.0,100.0,Recharge Activity

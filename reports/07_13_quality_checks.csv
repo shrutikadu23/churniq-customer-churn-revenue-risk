@@ -1,0 +1,14 @@
+check,status,detail
+Customer universe,PASS,69999 rows
+Unique customer IDs,PASS,No duplicates
+Calibrated probabilities,PASS,"[0, 1] and finite"
+Development rows,PASS,55999 rows
+Validation rows,PASS,14000 rows
+Primary threshold,PASS,0.100000
+Validation used for framework selection,PASS,NO
+Test data loaded,PASS,NO
+Model retraining,PASS,NO
+Model tuning,PASS,NO
+Additional calibration,PASS,NO
+Feature selection,PASS,NO
+Feature freeze,PASS,ACTIVE

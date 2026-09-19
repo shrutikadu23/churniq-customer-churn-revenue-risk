@@ -1,0 +1,24 @@
+check,status,detail
+Customer universe,PASS,"69,999 rows"
+Unique customer IDs,PASS,No duplicates
+Missing customer IDs,PASS,No missing IDs
+Calibrated probabilities,PASS,"[0, 1] and finite"
+Risk scores,PASS,0 to 100
+Risk percentiles,PASS,0 to 100 and finite
+Risk levels,PASS,All 3 locked risk levels present
+Risk classification completeness,PASS,Every customer classified exactly once
+Primary threshold,PASS,0.100000
+Threshold logic,PASS,Probability >= threshold
+Risk classification logic,PASS,Locked Phase 11 rules
+Risk ranking,PASS,Descending calibrated probability
+Risk rank integrity,PASS,"Exactly 1 to 69,999"
+Development population,PASS,"55,999 rows"
+Validation population,PASS,"14,000 rows"
+Scoring population completeness,PASS,Development + Validation = full universe
+Actual churn outcome,PASS,Observed historical outcome kept separate
+Output schema,PASS,Locked Phase 11 customer-level schema
+Test data loaded,PASS,NO
+Model retraining,PASS,NO
+Additional tuning,PASS,NO
+Additional calibration,PASS,NO
+Feature selection,PASS,NO

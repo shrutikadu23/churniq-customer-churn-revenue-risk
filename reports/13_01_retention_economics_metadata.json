@@ -1,0 +1,49 @@
+{
+  "phase": "13.1",
+  "purpose": "Retention Economics Foundation",
+  "scenario_version": "Phase 13.1 \u2014 Base Retention Economics Scenario Set v1",
+  "customer_universe": 69999,
+  "evaluation_horizon_months": 12,
+  "input_source": "data/processed/customer_value_revenue_risk.csv",
+  "retention_scenarios": [
+    {
+      "scenario_id": "low_touch",
+      "scenario_name": "Low-Touch Retention",
+      "intervention_cost_inr": 100.0,
+      "retention_success_rate": 0.2
+    },
+    {
+      "scenario_id": "targeted",
+      "scenario_name": "Targeted Retention",
+      "intervention_cost_inr": 250.0,
+      "retention_success_rate": 0.35
+    },
+    {
+      "scenario_id": "high_touch",
+      "scenario_name": "High-Touch Retention",
+      "intervention_cost_inr": 500.0,
+      "retention_success_rate": 0.5
+    }
+  ],
+  "units": {
+    "potential_monthly_revenue_exposure": "INR per month",
+    "expected_monthly_revenue_retained": "INR per month",
+    "expected_revenue_retained_over_horizon": "INR over evaluation horizon",
+    "intervention_cost": "INR per customer",
+    "expected_net_value": "INR over evaluation horizon",
+    "scenario_roi": "ratio",
+    "retention_success_rate": "probability",
+    "break_even_retention_success_rate": "probability"
+  },
+  "governance": {
+    "model_retraining": false,
+    "probability_recalibration": false,
+    "threshold_changes": false,
+    "feature_engineering": false,
+    "test_data_loaded": false,
+    "retention_success_observed": false,
+    "intervention_cost_observed": false,
+    "roi_realized": false
+  },
+  "quality_gate": "PASS"
+}

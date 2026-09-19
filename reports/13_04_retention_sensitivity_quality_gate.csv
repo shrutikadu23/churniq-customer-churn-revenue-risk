@@ -1,0 +1,21 @@
+check,status,detail
+Input row count,PASS,"69,999 rows"
+Unique customer IDs,PASS,No duplicate IDs
+Historical churn binary,PASS,Binary historical label
+Probability validity,PASS,Calibrated probabilities validated
+Exposure non-negative,PASS,Revenue exposure is non-negative
+Expected scenario count,PASS,135 / 135
+Five targeting cohorts,PASS,5 cohorts
+Nine success rates,PASS,9 success-rate assumptions
+Three intervention costs,PASS,3 intervention-cost assumptions
+Break-even non-negative,PASS,Break-even values are non-negative
+Break-even infeasibility handled,PASS,Values above 100% are retained and flagged infeasible
+Success monotonicity,PASS,Higher success does not reduce net value or ROI
+Cost monotonicity,PASS,Higher cost does not improve net value
+ROI finite,PASS,All ROI values finite
+Net value finite,PASS,All net values finite
+No model changes,PASS,Phase 13.4 uses frozen Phase 11/12 outputs
+No September predictors,PASS,No future-outcome predictors introduced
+No test data,PASS,No test-set data used
+Historical churn governance,PASS,Historical churn retained for descriptive context only
+Scenario assumptions governed,PASS,Success rates and costs are analytical assumptions

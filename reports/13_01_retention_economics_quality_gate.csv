@@ -1,0 +1,13 @@
+check,status,detail
+Customer universe,PASS,"69,999 unique customers"
+Scenario row count,PASS,"209,997 rows"
+Scenario IDs,PASS,3 unique scenarios
+Economics numeric validity,PASS,Finite numeric values
+Retention success rates,PASS,"Within [0, 1]"
+Intervention costs,PASS,> ₹0 per customer
+Evaluation horizon,PASS,12 months
+Break-even rates,PASS,Non-negative where calculable
+Model retraining,PASS,NO
+Probability recalibration,PASS,NO
+Threshold changes,PASS,NO
+Test data loaded,PASS,NO
