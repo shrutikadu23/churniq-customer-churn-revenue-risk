@@ -4,7 +4,7 @@
 
 ChurnIQ is an end-to-end **customer retention analytics and machine learning project** designed to help businesses identify potential churn risk early, understand the behavioral signals behind that risk, quantify customer-value exposure, and evaluate retention opportunities under explicit business assumptions.
 
-> 🚀 **[Live Streamlit Demo](https://churniq-customer-churn-revenue-risk-mubakhj98pxksanwjlvpd.streamlit.app/)**
+> > 🚀 **[Live Streamlit Demo](https://churniq-customer-churn-revenue-risk-mubakhj98pxksanwjlvlpd.streamlit.app/)**
 
 The project connects:
 
