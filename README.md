@@ -4,6 +4,8 @@
 
 ChurnIQ is an end-to-end **customer retention analytics and machine learning project** designed to help businesses identify potential churn risk early, understand the behavioral signals behind that risk, quantify customer-value exposure, and evaluate retention opportunities under explicit business assumptions.
 
+> 🚀 **[Live Streamlit Demo](https://churniq-customer-churn-revenue-risk-mubakhj98pxksanwjlvpd.streamlit.app/)**
+
 The project connects:
 
 **Business Analysis → Prediction → Probability Calibration → Explainability → Customer Risk → Customer Value → Revenue Exposure → Retention Economics → Business Decision Support**
@@ -927,8 +929,16 @@ Before real-world deployment, the framework should be evaluated using:
 - **GitHub Repository:**  
   https://github.com/shrutikadu23/churniq-customer-churn-revenue-risk
 
-- **Streamlit Application:**  
-  Run locally using the instructions above.
+### Streamlit Application
+
+🚀 **[Live Streamlit Demo](https://churniq-customer-churn-revenue-risk-mubakhj98pxksanwjlvpd.streamlit.app/)**
+
+The Streamlit application provides customer-level:
+- Calibrated churn risk
+- SHAP-based prediction explanations
+- Customer-value analysis
+- Revenue-risk exposure
+- Business interpretation
 
 - **Power BI Dashboard:**  
   `powerbi/ChurnIQ_Executive_Dashboard.pbix`
