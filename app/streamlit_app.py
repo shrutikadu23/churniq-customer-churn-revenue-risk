@@ -520,11 +520,11 @@ except Exception as error:
 
 @st.cache_data(show_spinner=False)
 def load_customer_ids():
+
     feature_file = (
         PROJECT_ROOT
-        / "data"
-        / "processed"
-        / "final_model_features.csv"
+        / "deployment_data"
+        / "customer_features.parquet"
     )
 
     if not feature_file.exists():
@@ -532,9 +532,9 @@ def load_customer_ids():
             f"Customer feature file not found:\n{feature_file}"
         )
 
-    data = pd.read_csv(
+    data = pd.read_parquet(
         feature_file,
-        usecols=["id"],
+        columns=["id"],
     )
 
     ids = (
@@ -548,7 +548,6 @@ def load_customer_ids():
         raise ValueError("No valid customer IDs were found.")
 
     return ids
-
 
 try:
     customer_ids = load_customer_ids()
